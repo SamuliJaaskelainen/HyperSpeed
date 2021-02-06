@@ -1,0 +1,2489 @@
+COMMENT $C902 not used RAM onword...
+LABEL $0000 _game_header
+LABEL $001E _crt0_init_data
+LABEL $0036 _crt0_copy_data
+LABEL $003E _crt0_init_bss
+LABEL $0047 _crt0_zero_bss
+LABEL $004D _crt0_startup
+LABEL $0056 _crt0_restart
+LABEL $0059 _memcmp
+LABEL $0066 L2
+LABEL $009C L4
+LABEL $00A2 L9
+LABEL $00AA _memcpy
+LABEL $00B9 L12
+LABEL $00D3 L11
+LABEL $00D9 _memmove
+LABEL $00EC L18
+LABEL $0109 L17
+LABEL $010F L16
+LABEL $0126 L24
+LABEL $012D L19
+LABEL $013F _memset
+LABEL $014D L27
+LABEL $0155 L26
+LABEL $0159 __Dot_d
+LABEL $015E __Dot_dd
+LABEL $0163 __Print_Str_hwyx
+LABEL $016C __Print_Str_yx
+LABEL $0175 __Print_Str_d
+LABEL $0180 __Print_Str_dd
+LABEL $018B __Print_List_hw
+LABEL $0194 __Print_List
+LABEL $019D __Print_List_chk
+LABEL $01A6 __Print_Ships_x
+LABEL $01AB __Print_Ships
+LABEL $01B0 __Print_Str
+LABEL $01B9 __Print_MRast
+LABEL $01C0 __Draw_Pat_VL_aa
+LABEL $01C5 __Draw_Pat_VL_a
+LABEL $01CA __Draw_Line_d
+LABEL $01CF __Draw_VL_ab
+LABEL $01D4 __Draw_VL_a
+LABEL $01D9 __Mov_Draw_VL_ab
+LABEL $01DE __Mov_Draw_VL_a
+LABEL $01E3 __Mov_Draw_VL_d
+LABEL $01E8 __Rot_VL_Mode
+LABEL $01F3 __Rot_VL_Pack
+LABEL $01FC __Rot_VL_M_dft
+LABEL $0205 __Random_3
+LABEL $020B __Random
+LABEL $0211 __Bitmask_a
+LABEL $0219 __Abs_a_b
+LABEL $0221 __Xform_Sin
+LABEL $0229 __Get_Rise_Run
+LABEL $022F __Xform_Run_a
+LABEL $0237 __Xform_Run
+LABEL $023D __Xform_Rise_a
+LABEL $0245 __Xform_Rise
+LABEL $024B __Clear_x_d
+LABEL $0250 __Move_Mem_a_1
+LABEL $025B __Move_Mem_a
+LABEL $0266 __Clear_x_b_a
+LABEL $026B __Read_Btns_Mask
+LABEL $0270 __Select_Game
+LABEL $0279 __Display_Option
+LABEL $0284 __Add_Score_a
+LABEL $028D __Add_Score_d
+LABEL $0292 __Compare_Score
+LABEL $029D __New_High_Score
+LABEL $02A6 __Sound_Byte
+LABEL $02AB __Sound_Byte_x
+LABEL $02B0 __Sound_Bytes
+LABEL $02B9 __Sound_Bytes_x
+LABEL $02C2 __Do_Sound
+LABEL $02C9 __Init_Music_chk
+LABEL $02D2 __Init_Music
+LABEL $02DB __Init_Music_a
+LABEL $02E4 __Init_Music_x
+LABEL $02ED __Explosion_Snd
+LABEL $02F6 __Moveto_d_7F
+LABEL $02FB __Moveto_dd_7F
+LABEL $0300 __Moveto_d
+LABEL $0305 __Moveto_dd
+LABEL $030A __Intensity_a
+LABEL $030F __Obj_Will_Hit_u
+LABEL $0321 __Obj_Will_Hit
+LABEL $0333 __Obj_Hit
+LABEL $0343 __Rise_Run_X
+LABEL $034B __Rise_Run_Y
+LABEL $0353 __Rise_Run_Len
+LABEL $035B __Rot_VL_ab
+LABEL $0366 __Rot_VL_Diff
+LABEL $036F __Rot_VL
+LABEL $0378 __Dot_y
+LABEL $0381 __Dot_py
+LABEL $038A __Draw_Pack
+LABEL $0394 __Draw_Pack_py
+LABEL $039E __Print_Msg
+LABEL $03A9 __Displ8_xy
+LABEL $03B2 __Displ16_xy
+LABEL $03BB __Ranpos
+LABEL $03C1 __Draw_Scores
+LABEL $03C8 __Draw_Score
+LABEL $03CF __Wait_Bound
+LABEL $03D6 _SongAddresshyperspeed
+LABEL $03EF _instrument0hyperspeed
+LABEL $03F1 _instrument0loophyperspeed
+LABEL $03F8 _instrument1hyperspeed
+LABEL $03FA _instrument1loophyperspeed
+LABEL $043C _instrument2hyperspeed
+LABEL $044E _instrument3hyperspeed
+LABEL $0450 _instrument3loophyperspeed
+LABEL $0454 _instrument4hyperspeed
+LABEL $0463 _instrument5hyperspeed
+LABEL $0484 _instrument6hyperspeed
+LABEL $0491 _instrument7hyperspeed
+LABEL $0493 _instrument7loophyperspeed
+LABEL $04B0 _instrument8hyperspeed
+LABEL $04B2 _instrument8loophyperspeed
+LABEL $050A _instrument9hyperspeed
+LABEL $050C _instrument9loophyperspeed
+LABEL $0514 _instrument10hyperspeed
+LABEL $0516 _instrument10loophyperspeed
+LABEL $051E _linkerhyperspeed
+LABEL $0524 _pattern0Definitionhyperspeed
+LABEL $052B _pattern1Definitionhyperspeed
+LABEL $0533 _pattern2Definitionhyperspeed
+LABEL $053A _pattern3Definitionhyperspeed
+LABEL $0541 _pattern4Definitionhyperspeed
+LABEL $0548 _pattern5Definitionhyperspeed
+LABEL $054F _pattern6Definitionhyperspeed
+LABEL $0556 _pattern7Definitionhyperspeed
+LABEL $055D _pattern8Definitionhyperspeed
+LABEL $0564 _pattern9Definitionhyperspeed
+LABEL $056B _pattern10Definitionhyperspeed
+LABEL $0572 _pattern11Definitionhyperspeed
+LABEL $0579 _pattern12Definitionhyperspeed
+LABEL $0580 _pattern13Definitionhyperspeed
+LABEL $0587 _pattern14Definitionhyperspeed
+LABEL $058E _pattern15Definitionhyperspeed
+LABEL $0595 _pattern16Definitionhyperspeed
+LABEL $059D _pattern17Definitionhyperspeed
+LABEL $05A5 _pattern18Definitionhyperspeed
+LABEL $05AD _pattern19Definitionhyperspeed
+LABEL $05B4 _pattern20Definitionhyperspeed
+LABEL $05B7 _specialtrackDef0hyperspeed
+LABEL $05B9 _trackDef0hyperspeed
+LABEL $05DC _trackDef1hyperspeed
+LABEL $068F _trackDef6hyperspeed
+LABEL $0726 _trackDef13hyperspeed
+LABEL $07BD _trackDef16hyperspeed
+LABEL $0854 _trackDef3hyperspeed
+LABEL $08F8 _trackDef4hyperspeed
+LABEL $0946 _trackDef7hyperspeed
+LABEL $0986 _trackDef10hyperspeed
+LABEL $09B6 _trackDef14hyperspeed
+LABEL $09FC _trackDef38hyperspeed
+LABEL $0A10 _trackDef24hyperspeed
+LABEL $0A42 _trackDef30hyperspeed
+LABEL $0A8A _trackDef15hyperspeed
+LABEL $0AE1 _trackDef17hyperspeed
+LABEL $0B34 _trackDef20hyperspeed
+LABEL $0B8E _trackDef2hyperspeed
+LABEL $0BB1 _trackDef5hyperspeed
+LABEL $0C06 _trackDef8hyperspeed
+LABEL $0C6A _trackDef12hyperspeed
+LABEL $0CD1 _trackDef27hyperspeed
+LABEL $0D3B _trackDef31hyperspeed
+LABEL $0D96 _trackDef33hyperspeed
+LABEL $0DD3 _trackDef36hyperspeed
+LABEL $0E33 _trackDef22hyperspeed
+LABEL $0E3E _trackDef25hyperspeed
+LABEL $0E4C _randomUintTable
+LABEL $0F4C _randomIntTable
+LABEL $104C _shuffleRandom
+LABEL $1054 _getRandom
+LABEL $1066 _getRandomInt
+LABEL $1078 _getRandomFlip
+LABEL $1094 L8
+LABEL $1096 L9
+LABEL $109B _sock
+LABEL $1180 _hyperSpeedTitle
+LABEL $1250 _gateDiamond
+LABEL $1260 _gateHex
+LABEL $1276 _gateTriangle
+LABEL $128C _gateSquare
+LABEL $12A8 _player
+LABEL $12C1 _blackbird
+LABEL $131C _burner
+LABEL $1374 _gataCount
+LABEL $1375 _gateSizeHalf
+LABEL $1376 _gateSizeQuater
+LABEL $1377 _gateSizeCenter
+LABEL $1378 _scorePosX
+LABEL $1379 _scorePosY
+LABEL $137A _speed
+LABEL $137B _setupGate
+LABEL $1394 L12
+LABEL $139F L13
+LABEL $13E0 L14
+LABEL $13EB L15
+LABEL $14EA L16
+LABEL $15BF L17
+LABEL $168B L18
+LABEL $1758 L19
+LABEL $17EA L20
+LABEL $1818 L22
+LABEL $1845 L23
+LABEL $1872 L24
+LABEL $1894 L21
+LABEL $18B7 L26
+LABEL $18C5 L28
+LABEL $18D3 L29
+LABEL $18E1 L30
+LABEL $18E6 L27
+LABEL $18FE L31
+LABEL $1903 LC0
+LABEL $1907 LC1
+LABEL $190B LC2
+LABEL $190F LC3
+LABEL $1913 LC4
+LABEL $1917 LC5
+LABEL $191B LC6
+LABEL $191F LC7
+LABEL $1923 LC8
+LABEL $1927 LC9
+LABEL $192B LC10
+LABEL $193D _main
+LABEL $194C L34
+LABEL $19C7 L33
+LABEL $19EB L97
+LABEL $1A0F L35
+LABEL $1A1D L36
+LABEL $1A29 L37
+LABEL $1A3A L49
+LABEL $1AA3 L39
+LABEL $1AE5 L41
+LABEL $1B27 L42
+LABEL $1B69 L43
+LABEL $1BAB L44
+LABEL $1BED L45
+LABEL $1C2F L46
+LABEL $1C71 L47
+LABEL $1CB2 L48
+LABEL $1CF1 L40
+LABEL $1CF8 L38
+LABEL $1D2D L51
+LABEL $1D3E L52
+LABEL $1D4C L53
+LABEL $1D51 L54
+LABEL $1D62 L55
+LABEL $1D70 L56
+LABEL $1D7E L58
+LABEL $1D8C L59
+LABEL $1D9A L60
+LABEL $1DA8 L61
+LABEL $1DAD L57
+LABEL $1E43 L50
+LABEL $1E86 L63
+LABEL $1EBA L65
+LABEL $1EEC L64
+LABEL $1F1F L66
+LABEL $1F4F L68
+LABEL $1F83 L67
+LABEL $1FAA L69
+LABEL $1FDA L71
+LABEL $200E L70
+LABEL $201C L72
+LABEL $2028 L73
+LABEL $2036 L74
+LABEL $2042 L75
+LABEL $2070 L76
+LABEL $207C L77
+LABEL $2088 L78
+LABEL $2094 L79
+LABEL $2120 L80
+LABEL $212C L81
+LABEL $21B5 L96
+LABEL $240F L84
+LABEL $2562 L85
+LABEL $26BA L83
+LABEL $2758 L88
+LABEL $275B L87
+LABEL $27AC L89
+LABEL $2819 L91
+LABEL $284C L90
+LABEL $2990 L92
+LABEL $2AC7 L94
+LABEL $2BE0 L95
+LABEL $2CCD L93
+LABEL $2CD4 L82
+LABEL $2CE9 _joystick_1_y
+LABEL $2CED _joystick_1_x
+LABEL $2CF1 _button_1_4_pressed
+LABEL $2CF7 _buttons_pressed
+LABEL $2CFB _button_1_2_pressed
+LABEL $2D01 _button_1_1_pressed
+LABEL $2D07 _check_buttons
+LABEL $2D0B _enable_controller_1_y
+LABEL $2D11 _enable_controller_1_x
+LABEL $2D17 _randomUintTable
+LABEL $2E17 _randomIntTable
+LABEL $2F17 _shuffleRandom
+LABEL $2F1F _getRandom
+LABEL $2F31 _getRandomInt
+LABEL $2F43 _getRandomFlip
+LABEL $2F5F L8
+LABEL $2F61 L9
+LABEL $2F66 PLY_PLAY:PLAYER
+LABEL $2F7F PLY_SONGNOTOVER
+LABEL $2F87 PLY_NONEWTRANSPOSITION1
+LABEL $2F8F PLY_NONEWTRANSPOSITION2
+LABEL $2F97 PLY_NONEWTRANSPOSITION3
+LABEL $2FAE PLY_NONEWHEIGHT
+LABEL $2FB1 PLY_NEWSPECIALTRACK
+LABEL $2FB6 PLY_NONEWSPECIALTRACK
+LABEL $2FD3 _read_special_track:PLY_HEIGHTEND
+LABEL $2FE5 PLY_SPECIALTRACK_NOESCAPECODE
+LABEL $2FE7 PLY_SPECIALTRACK_SPEED
+LABEL $2FEA PLY_PT_SPECIALTRACK_ENDDATA
+LABEL $2FEC PLY_SPECIALTRACK_NEWWAIT
+LABEL $2FF2 PLY_SPECIALTRACK_DONE
+LABEL $2FF6 _read_track:readnextchannel
+LABEL $2FFE PLY_READTRACK
+LABEL $300A PLY_READTRACK_READPARAMETERS
+LABEL $3017 PLY_READTRACK_PITCH_END
+LABEL $3022 PLY_TRACK_SAMEVOLUME_2
+LABEL $3029 PLY_READTRACK_NOOPTIMISATION_ESCAPECODE
+LABEL $302D PLY_READTRACK_FULLOPTIMISATION
+LABEL $3038 PLY_READTRACK_WAIT
+LABEL $3040 do_continue_p_vol
+LABEL $3047 do_continue_p_vol_done:PLY_TRACK_SAMEVOLUME_1
+LABEL $3050 full_opt_note_given
+LABEL $3065 PLY_TRACK_NEWINSTRUMENT
+LABEL $3078 PLY_TRACK_INSTRUMENTRESETPT
+LABEL $307F noIntrumentRetrigger
+LABEL $3081 PLY_TRACK_NONOTEGIVEN
+LABEL $3083 PLY_TRACK_NEWINSTRUMENT_SETWAIT
+LABEL $3085 PLY_TRACK_NEWINSTRUMENT_WAIT_CONT
+LABEL $3096 PLY_SPEEDEND
+LABEL $30A6 _play_sound_track:playnextchannel
+LABEL $30B4 PLY_PLAYSOUND
+LABEL $30CE PLY_PS_S_SOUNDON
+LABEL $30D3 vol_not_null_1
+LABEL $30E7 PLY_PS_S_SECONDBYTENEEDED
+LABEL $30F8 PLY_PS_S_SBN_NONOISE
+LABEL $3101 no_vol_underflow_1
+LABEL $3111 PLY_PS_S_SBN_SOUND
+LABEL $311E PLY_PS_HARD
+LABEL $312E PLY_PS_HARD_NORETRIG
+LABEL $316C PLY_PS_SD_SHIFT_ADREESS
+LABEL $317F no_shift_carry_sd
+LABEL $3185 PLY_PS_SD_NOHARDWAREPITCH
+LABEL $318A PLY_PS_SD_NOISE
+LABEL $3199 ret_nla_here
+LABEL $319C PLY_PS_HARDWAREDEPENDENT
+LABEL $31BA PLY_PS_HD_SHIFT_ADREESS
+LABEL $31CE PLY_PS_HD_NOSOFTWAREPITCH
+LABEL $31D6 PLY_PS_HARD_LOOPORINDEPENDENT
+LABEL $31DF PLY_PS_INDEPENDENT
+LABEL $31F0 PLY_PS_I_SOUNDON
+LABEL $3206 PLY_PS_I_SKIPSOFTWAREFREQUENCYCALCULATION
+LABEL $3230 out_sound:outahere_1
+LABEL $323A PLY_TRACK_PLAYNOFORWARD
+LABEL $3258 doneplaying
+LABEL $3263 PLY_SENDREGISTERS
+LABEL $3279 backFromPlayer
+LABEL $32B4 PLY_PS_CALCULATEFREQUENCY_TESTMANUALFREQUENCY
+LABEL $32BF PLY_PS_CALCULATEFREQUENCY
+LABEL $32CB PLY_PS_S_SOUNDON_NOPITCH
+LABEL $32D9 PLY_PS_S_SOUNDON_ARPEGGIOEND:no_max_appegio
+LABEL $32EA PLY_FREQUENCYTABLE
+LABEL $340A initCodeModifications:PLY_INIT
+LABEL $346F PLY_STOP
+LABEL $3480 draw_synced_list
+LABEL $3486 sync
+LABEL $3495 zeroLoop
+LABEL $34AD moveTo
+LABEL $34B4 nextListEntry
+LABEL $34D2 setPatternLoop
+LABEL $34DC drawdone
+LABEL $C880 _randomIndex
+LABEL $C881 _i
+LABEL $C882 _j
+LABEL $C883 _k
+LABEL $C884 _ui
+LABEL $C885 _uj
+LABEL $C886 _state
+LABEL $C887 _score
+LABEL $C889 _scorePrint
+LABEL $C88B _scorePrintDigit
+LABEL $C88D _lives
+LABEL $C88E _playerX
+LABEL $C88F _playerY
+LABEL $C890 _playerDirX
+LABEL $C891 _playerDirY
+LABEL $C892 _playerSpeedX
+LABEL $C893 _playerSpeedY
+LABEL $C894 _gameSpeed
+LABEL $C895 _nextSpeed
+LABEL $C896 _nextSpeedLimit
+LABEL $C897 _deadZone
+LABEL $C898 _randomIndex
+LABEL $C899 _gates
+LABEL $C8AB _arkosPlayerMemStart:_tmp_track_param
+LABEL $C8AC _tmp_track_instrument
+LABEL $C8AD _tmp_instrument_second_byte
+LABEL $C8AE _PLY_HEIGHT
+LABEL $C8AF _PLY_SPEED
+LABEL $C8B0 _PLY_SPEEDCPT
+LABEL $C8B1 _PLY_HEIGHTCPT
+LABEL $C8B2 _PLY_TRACK_INSTRUMENTSTABLEPT
+LABEL $C8B4 _PLY_LINKER_PT
+LABEL $C8B6 _PLY_PSGREG13_RETRIG
+LABEL $C8B7 _PLY_SAVESPECIALTRACK
+LABEL $C8B9 _PLY_SPECIALTRACK_PT
+LABEL $C8BB _PLY_SPECIALTRACK_WAITCOUNTER
+LABEL $C8BC _Channel1Data
+LABEL $C8CD _Channel2Data
+LABEL $C8DE _Channel3Data
+LABEL $C8EF _ChannelDataEnd:_PLY_PSGREG13
+LABEL $C8F0 _PLY_VOL_REG
+LABEL $C8F2 _PLY_FREQ_REG
+LABEL $C8F4 _CVec_Music_Work:_PLY_PSGREGISTERSARRAY:_PLY_PSGREG0
+LABEL $C8F5 _PLY_PSGREG1
+LABEL $C8F6 _PLY_PSGREG2
+LABEL $C8F7 _PLY_PSGREG3
+LABEL $C8F8 _PLY_PSGREG4
+LABEL $C8F9 _PLY_PSGREG5
+LABEL $C8FA _PLY_PSGREG6
+LABEL $C8FC _PLY_PSGREG8
+LABEL $C8FD _PLY_PSGREG9
+LABEL $C8FE _PLY_PSGREG10
+LABEL $C8FF _PLY_PSGREG11
+LABEL $C900 _PLY_PSGREG12
+LABEL $C902 _PLY_PSGREGISTERSARRAY_END:_arkosPlayerMemEnd
+LABEL $E7B5 ___Displ8_xy
+LABEL $E7D2 ___Displ16_xy
+LABEL $E98A ___Ranpos
+LABEL $EA3E ___Rnd_Cone
+LABEL $EA5D ___Dot_y
+LABEL $EA6D ___Dot_py
+LABEL $EA7F ___Draw_Pack
+LABEL $EA8D ___Draw_Pack_py
+LABEL $EAA8 ___Print_Msg
+LABEL $EAB4 ___Draw_Score
+LABEL $EACF ___Draw_Scores
+LABEL $EAF0 ___Wait_Bound
+LABEL $F000 ___Reset
+LABEL $F14C ___Init_VIA
+LABEL $F164 ___Init_OS_RAM
+LABEL $F18B ___Init_OS
+LABEL $F192 ___Wait_Recal
+LABEL $F1AA ___DP_to_D0
+LABEL $F1AF ___DP_to_C8
+LABEL $F1B4 ___Read_Btns_Mask
+LABEL $F1BA ___Read_Btns
+LABEL $F1F5 ___Joy_Analog
+LABEL $F1F8 ___Joy_Digital
+LABEL $F256 ___Sound_Byte
+LABEL $F259 ___Sound_Byte_x
+LABEL $F272 ___Clear_Sound
+LABEL $F27D ___Sound_Bytes
+LABEL $F284 ___Sound_Bytes_x
+LABEL $F289 ___Do_Sound
+LABEL $F28C ___Do_Sound_x
+LABEL $F29D ___Intensity_1F
+LABEL $F2A1 ___Intensity_3F
+LABEL $F2A5 ___Intensity_5F
+LABEL $F2A9 ___Intensity_7F
+LABEL $F2AB ___Intensity_a
+LABEL $F2BE ___Dot_ix_b
+LABEL $F2C1 ___Dot_ix
+LABEL $F2C3 ___Dot_d
+LABEL $F2C5 ___Dot_here
+LABEL $F2D5 ___Dot_List
+LABEL $F2DE ___Dot_List_Reset
+LABEL $F2E6 ___Recalibrate
+LABEL $F2F2 ___Moveto_x_7F
+LABEL $F2FC ___Moveto_d_7F
+LABEL $F308 ___Moveto_ix_FF
+LABEL $F30C ___Moveto_ix_7F
+LABEL $F30E ___Moveto_ix_b
+LABEL $F310 ___Moveto_ix
+LABEL $F312 ___Moveto_d
+LABEL $F34A ___Reset0Ref_D0
+LABEL $F34F ___Check0Ref
+LABEL $F354 ___Reset0Ref
+LABEL $F35B ___Reset_Pen
+LABEL $F36B ___Reset0Int
+LABEL $F373 ___Print_Str_hwyx
+LABEL $F378 ___Print_Str_yx
+LABEL $F37A ___Print_Str_d
+LABEL $F385 ___Print_List_hw
+LABEL $F38A ___Print_List
+LABEL $F38C ___Print_List_chk
+LABEL $F391 ___Print_Ships_x
+LABEL $F393 ___Print_Ships
+LABEL $F3AD ___Mov_Draw_VLc_a
+LABEL $F3B1 ___Mov_Draw_VL_b
+LABEL $F3B5 ___Mov_Draw_VLcs
+LABEL $F3B7 ___Mov_Draw_VL_ab
+LABEL $F3B9 ___Mov_Draw_VL_a
+LABEL $F3BC ___Mov_Draw_VL
+LABEL $F3BE ___Mov_Draw_VL_d
+LABEL $F3CE ___Draw_VLc
+LABEL $F3D2 ___Draw_VL_b
+LABEL $F3D6 ___Draw_VLcs
+LABEL $F3D8 ___Draw_VL_ab
+LABEL $F3DA ___Draw_VL_a
+LABEL $F3DD ___Draw_VL
+LABEL $F3DF ___Draw_Line_d
+LABEL $F404 ___Draw_VLp_FF
+LABEL $F408 ___Draw_VLp_7F
+LABEL $F40C ___Draw_VLp_scale
+LABEL $F40E ___Draw_VLp_b
+LABEL $F410 ___Draw_VLp
+LABEL $F433 ___Draw_Pat_VL_aa
+LABEL $F434 ___Draw_Pat_VL_a
+LABEL $F437 ___Draw_Pat_VL
+LABEL $F439 ___Draw_Pat_VL_d
+LABEL $F46E ___Draw_VL_mode
+LABEL $F495 ___Print_Str
+LABEL $F498 ___Print_MRast
+LABEL $F511 ___Random_3
+LABEL $F517 ___Random
+LABEL $F533 ___Init_Music_Buf
+LABEL $F53F ___Clear_x_b
+LABEL $F542 ___Clear_C8_RAM
+LABEL $F545 ___Clear_x_256
+LABEL $F548 ___Clear_x_d
+LABEL $F550 ___Clear_x_b_80
+LABEL $F552 ___Clear_x_b_a
+LABEL $F55A ___Dec_3_Counters
+LABEL $F55E ___Dec_6_Counters
+LABEL $F563 ___Dec_Counters
+LABEL $F56D ___Delay_3
+LABEL $F571 ___Delay_2
+LABEL $F575 ___Delay_1
+LABEL $F579 ___Delay_0
+LABEL $F57A ___Delay_b
+LABEL $F57D ___Delay_RTS
+LABEL $F57E ___Bitmask_a
+LABEL $F584 ___Abs_a_b
+LABEL $F58B ___Abs_b
+LABEL $F593 ___Rise_Run_Angle
+LABEL $F5D9 ___Get_Rise_Idx
+LABEL $F5DB ___Xform_Sin
+LABEL $F5EF ___Get_Rise_Run
+LABEL $F5FF ___Rise_Run_X
+LABEL $F601 ___Rise_Run_Y
+LABEL $F603 ___Rise_Run_Len
+LABEL $F610 ___Rot_VL_ab
+LABEL $F613 ___Rot_VL_Diff
+LABEL $F616 ___Rot_VL
+LABEL $F61F ___Rot_VL_Mode
+LABEL $F622 ___Rot_VL_Pack
+LABEL $F62B ___Rot_VL_M_dft
+LABEL $F65B ___Xform_Run_a
+LABEL $F65D ___Xform_Run
+LABEL $F661 ___Xform_Rise_a
+LABEL $F663 ___Xform_Rise
+LABEL $F67F ___Move_Mem_a_1
+LABEL $F683 ___Move_Mem_a
+LABEL $F687 ___Init_Music_chk
+LABEL $F68D ___Init_Music
+LABEL $F690 ___Init_Music_a
+LABEL $F692 ___Init_Music_x
+LABEL $F742 ___Stop_Sound
+LABEL $F7A9 ___Select_Game
+LABEL $F835 ___Display_Option
+LABEL $F84F ___Clear_Score
+LABEL $F85E ___Add_Score_a
+LABEL $F87C ___Add_Score_d
+LABEL $F8B7 ___Strip_Zeros
+LABEL $F8C7 ___Compare_Score
+LABEL $F8D8 ___New_High_Score
+LABEL $F8E5 ___Obj_Will_Hit_u
+LABEL $F8F3 ___Obj_Will_Hit
+LABEL $F8FF ___Obj_Hit
+LABEL $F92E ___Explosion_Snd
+LABEL $F9CA ___Set_Amp
+COMMENT $00CE cmphi
+COMMENT $00DF cmphi
+COMMENT $0103 cmphi: R:d with R:x
+COMMENT $0105 cmphi
+COMMENT $014F cmphi: R:u with R:x
+COMMENT $0151 cmphi
+COMMENT $015B BIOS call
+COMMENT $0160 BIOS call
+COMMENT $0167 BIOS call
+COMMENT $0170 BIOS call
+COMMENT $017B BIOS call
+COMMENT $0186 BIOS call
+COMMENT $018F BIOS call
+COMMENT $0198 BIOS call
+COMMENT $01A1 BIOS call
+COMMENT $01A8 BIOS call
+COMMENT $01AD BIOS call
+COMMENT $01B4 BIOS call
+COMMENT $01BB BIOS call
+COMMENT $01C2 BIOS call
+COMMENT $01C7 BIOS call
+COMMENT $01CC BIOS call
+COMMENT $01D1 BIOS call
+COMMENT $01D6 BIOS call
+COMMENT $01DB BIOS call
+COMMENT $01E0 BIOS call
+COMMENT $01E5 BIOS call
+COMMENT $01EE BIOS call
+COMMENT $01F7 BIOS call
+COMMENT $0200 BIOS call
+COMMENT $0205 BIOS call
+COMMENT $020B BIOS call
+COMMENT $0213 BIOS call
+COMMENT $021B BIOS call
+COMMENT $0223 BIOS call
+COMMENT $0229 BIOS call
+COMMENT $0231 BIOS call
+COMMENT $0237 BIOS call
+COMMENT $023F BIOS call
+COMMENT $0245 BIOS call
+COMMENT $024D BIOS call
+COMMENT $0256 BIOS call
+COMMENT $0261 BIOS call
+COMMENT $0268 BIOS call
+COMMENT $026D BIOS call
+COMMENT $0274 BIOS call
+COMMENT $027F BIOS call
+COMMENT $0288 BIOS call
+COMMENT $028F BIOS call
+COMMENT $0296 BIOS call
+COMMENT $02A1 BIOS call
+COMMENT $02A8 BIOS call
+COMMENT $02AD BIOS call
+COMMENT $02B4 BIOS call
+COMMENT $02BD BIOS call
+COMMENT $02C4 BIOS call
+COMMENT $02CD BIOS call
+COMMENT $02D6 BIOS call
+COMMENT $02DF BIOS call
+COMMENT $02E8 BIOS call
+COMMENT $02F1 BIOS call
+COMMENT $02F8 BIOS call
+COMMENT $02FD BIOS call
+COMMENT $0302 BIOS call
+COMMENT $0307 BIOS call
+COMMENT $030C BIOS call
+COMMENT $0318 BIOS call
+COMMENT $032A BIOS call
+COMMENT $033A BIOS call
+COMMENT $0345 BIOS call
+COMMENT $034D BIOS call
+COMMENT $0355 BIOS call
+COMMENT $0361 BIOS call
+COMMENT $036A BIOS call
+COMMENT $0373 BIOS call
+COMMENT $037C BIOS call
+COMMENT $0385 BIOS call
+COMMENT $038F BIOS call
+COMMENT $0399 BIOS call
+COMMENT $03A4 BIOS call
+COMMENT $03AD BIOS call
+COMMENT $03B6 BIOS call
+COMMENT $03BB BIOS call
+COMMENT $03C3 BIOS call
+COMMENT $03CA BIOS call
+COMMENT $03D1 BIOS call
+COMMENT $03D9 0x000C: [0x4022] pointer to instent 0
+COMMENT $03DB 0x000E: [0x402B] pointer to instent 1
+COMMENT $03DD 0x0010: [0x406F] pointer to instent 2
+COMMENT $03DF 0x0012: [0x4081] pointer to instent 3
+COMMENT $03E1 0x0014: [0x4087] pointer to instent 4
+COMMENT $03E3 0x0016: [0x4096] pointer to instent 5
+COMMENT $03E5 0x0018: [0x40B7] pointer to instent 6
+COMMENT $03E7 0x001A: [0x40C4] pointer to instent 7
+COMMENT $03E9 0x001C: [0x40E3] pointer to instent 8
+COMMENT $03EB 0x001E: [0x413D] pointer to instent 9
+COMMENT $03ED 0x0020: [0x4147] pointer to instent 10
+COMMENT $03F6 0x0029: [0x4024] loop
+COMMENT $043A 0x006D: [0x402D] loop
+COMMENT $044C 0x007F: [0x4024] loop
+COMMENT $0452 0x0085: [0x4083] loop
+COMMENT $0461 0x0094: [0x4024] loop
+COMMENT $0482 0x00B5: [0x4024] loop
+COMMENT $048F 0x00C2: [0x4024] loop
+COMMENT $04AE 0x00E1: [0x40C6] loop
+COMMENT $0508 0x013B: [0x40E5] loop
+COMMENT $0512 0x0145: [0x413F] loop
+COMMENT $051C 0x014F: [0x4149] loop
+COMMENT $0522 0x0155: [0x41EA] specialTrack
+COMMENT $0525 0x0158: [0x41EC] pattern 0, track 1
+COMMENT $0527 0x015A: [0x420F] pattern 0, track 2
+COMMENT $0529 0x015C: [0x41EC] pattern 0, track 3
+COMMENT $052D 0x0160: [0x47C1] pattern 1, track 1
+COMMENT $052F 0x0162: [0x4487] pattern 1, track 2
+COMMENT $0531 0x0164: [0x452B] pattern 1, track 3
+COMMENT $0534 0x0167: [0x47E4] pattern 2, track 1
+COMMENT $0536 0x0169: [0x42C2] pattern 2, track 2
+COMMENT $0538 0x016B: [0x4579] pattern 2, track 3
+COMMENT $053B 0x016E: [0x4839] pattern 3, track 1
+COMMENT $053D 0x0170: [0x42C2] pattern 3, track 2
+COMMENT $053F 0x0172: [0x45B9] pattern 3, track 3
+COMMENT $0542 0x0175: [0x4839] pattern 4, track 1
+COMMENT $0544 0x0177: [0x42C2] pattern 4, track 2
+COMMENT $0546 0x0179: [0x4579] pattern 4, track 3
+COMMENT $0549 0x017C: [0x489D] pattern 5, track 1
+COMMENT $054B 0x017E: [0x4359] pattern 5, track 2
+COMMENT $054D 0x0180: [0x45E9] pattern 5, track 3
+COMMENT $0550 0x0183: [0x46BD] pattern 6, track 1
+COMMENT $0552 0x0185: [0x43F0] pattern 6, track 2
+COMMENT $0554 0x0187: [0x4579] pattern 6, track 3
+COMMENT $0557 0x018A: [0x4714] pattern 7, track 1
+COMMENT $0559 0x018C: [0x43F0] pattern 7, track 2
+COMMENT $055B 0x018E: [0x45B9] pattern 7, track 3
+COMMENT $055E 0x0191: [0x46BD] pattern 8, track 1
+COMMENT $0560 0x0193: [0x43F0] pattern 8, track 2
+COMMENT $0562 0x0195: [0x4579] pattern 8, track 3
+COMMENT $0565 0x0198: [0x4767] pattern 9, track 1
+COMMENT $0567 0x019A: [0x4359] pattern 9, track 2
+COMMENT $0569 0x019C: [0x45E9] pattern 9, track 3
+COMMENT $056C 0x019F: [0x4A66] pattern 10, track 1
+COMMENT $056E 0x01A1: [0x42C2] pattern 10, track 2
+COMMENT $0570 0x01A3: [0x4643] pattern 10, track 3
+COMMENT $0573 0x01A6: [0x4A71] pattern 11, track 1
+COMMENT $0575 0x01A8: [0x4359] pattern 11, track 2
+COMMENT $0577 0x01AA: [0x4904] pattern 11, track 3
+COMMENT $057A 0x01AD: [0x4A66] pattern 12, track 1
+COMMENT $057C 0x01AF: [0x42C2] pattern 12, track 2
+COMMENT $057E 0x01B1: [0x4643] pattern 12, track 3
+COMMENT $0581 0x01B4: [0x4A71] pattern 13, track 1
+COMMENT $0583 0x01B6: [0x4359] pattern 13, track 2
+COMMENT $0585 0x01B8: [0x4675] pattern 13, track 3
+COMMENT $0588 0x01BB: [0x496E] pattern 14, track 1
+COMMENT $058A 0x01BD: [0x42C2] pattern 14, track 2
+COMMENT $058C 0x01BF: [0x4643] pattern 14, track 3
+COMMENT $058F 0x01C2: [0x49C9] pattern 15, track 1
+COMMENT $0591 0x01C4: [0x4359] pattern 15, track 2
+COMMENT $0593 0x01C6: [0x4904] pattern 15, track 3
+COMMENT $0597 0x01CA: [0x496E] pattern 16, track 1
+COMMENT $0599 0x01CC: [0x42C2] pattern 16, track 2
+COMMENT $059B 0x01CE: [0x4643] pattern 16, track 3
+COMMENT $059F 0x01D2: [0x4A06] pattern 17, track 1
+COMMENT $05A1 0x01D4: [0x4359] pattern 17, track 2
+COMMENT $05A3 0x01D6: [0x4675] pattern 17, track 3
+COMMENT $05A7 0x01DA: [0x462F] pattern 18, track 1
+COMMENT $05A9 0x01DC: [0x420F] pattern 18, track 2
+COMMENT $05AB 0x01DE: [0x41EC] pattern 18, track 3
+COMMENT $05AE 0x01E1: [0x462F] pattern 19, track 1
+COMMENT $05B0 0x01E3: [0x420F] pattern 19, track 2
+COMMENT $05B2 0x01E5: [0x47C1] pattern 19, track 3
+COMMENT $05B5 0x01E8: [0x4157] song restart address
+COMMENT $104C randomIndex.3, randomIndex
+COMMENT $104F randomIndex.4
+COMMENT $1050 randomIndex.4, randomIndex
+COMMENT $1054 randomIndex.5, randomIndex
+COMMENT $1057 randomIndex.6
+COMMENT $1058 randomIndex.6, randomIndex
+COMMENT $105B randomIndex.7, randomIndex
+COMMENT $105E zero_extendqihi: R:b -> R:d ; randomIndex.7
+COMMENT $105F tmp32
+COMMENT $1061 D.3096, randomUintTable
+COMMENT $1066 randomIndex.8, randomIndex
+COMMENT $1069 randomIndex.9
+COMMENT $106A randomIndex.9, randomIndex
+COMMENT $106D randomIndex.10, randomIndex
+COMMENT $1070 zero_extendqihi: R:b -> R:d ; randomIndex.10
+COMMENT $1071 tmp32
+COMMENT $1073 D.3103, randomIntTable
+COMMENT $107A randomIndex.11, randomIndex
+COMMENT $107D randomIndex.12
+COMMENT $107E randomIndex.12, randomIndex
+COMMENT $1081 randomIndex.13, randomIndex
+COMMENT $1084 zero_extendqihi: R:b -> R:d ; randomIndex.13
+COMMENT $1085 tmp34
+COMMENT $1087 D.3111, randomUintTable
+COMMENT $1096 <result>, D.3113
+COMMENT $138F D.3167, iftmp.15
+COMMENT $139C iftmp.15
+COMMENT $13A2 extendqihi2: R:b -> R:d
+COMMENT $13A3 tmp106
+COMMENT $13A5 tmp106
+COMMENT $13A8 tmp108
+COMMENT $13AD tmp108
+COMMENT $13B3 tmp106
+COMMENT $13B8 tmp109
+COMMENT $13BD tmp109
+COMMENT $13C3 tmp110
+COMMENT $13C7 iftmp.15
+COMMENT $13CA <variable>.x
+COMMENT $13DB D.3172, iftmp.17
+COMMENT $13E8 iftmp.17
+COMMENT $13EE extendqihi2: R:b -> R:d
+COMMENT $13EF tmp111
+COMMENT $13F1 tmp111
+COMMENT $13F4 tmp113
+COMMENT $13F9 tmp113
+COMMENT $13FF tmp111
+COMMENT $1404 tmp114
+COMMENT $1407 addhi3,3 ; tmp114
+COMMENT $140F tmp116, tmp115
+COMMENT $1411 iftmp.17
+COMMENT $1414 <variable>.y
+COMMENT $1419 extendqihi2: R:b -> R:d ; i.18
+COMMENT $141A tmp117
+COMMENT $141C tmp117
+COMMENT $141F tmp119
+COMMENT $1424 tmp119
+COMMENT $142A tmp117
+COMMENT $142F tmp120
+COMMENT $1434 tmp120
+COMMENT $143A tmp121
+COMMENT $143E D.3175, <variable>.x
+COMMENT $1448 extendqihi2: R:b -> R:d ; i.19
+COMMENT $1449 tmp122
+COMMENT $144B tmp122
+COMMENT $144E tmp124
+COMMENT $1453 tmp124
+COMMENT $1459 tmp122
+COMMENT $145E tmp125
+COMMENT $1463 tmp125
+COMMENT $1469 tmp126
+COMMENT $146D <variable>.x
+COMMENT $1472 gateSizeHalf.20, gateSizeHalf
+COMMENT $1486 extendqihi2: R:b -> R:d ; i.22
+COMMENT $1487 tmp127
+COMMENT $1489 tmp127
+COMMENT $148C tmp129
+COMMENT $1491 tmp129
+COMMENT $1497 tmp127
+COMMENT $149C tmp130
+COMMENT $14A1 tmp130
+COMMENT $14A7 tmp131
+COMMENT $14AB <variable>.x
+COMMENT $14B0 gateSizeHalf
+COMMENT $14B3 gateSizeHalf.23
+COMMENT $14B8 gateSizeHalf.23
+COMMENT $14C0 extendqihi2: R:b -> R:d
+COMMENT $14C1 tmp132
+COMMENT $14C3 tmp132
+COMMENT $14C6 tmp134
+COMMENT $14CB tmp134
+COMMENT $14D1 tmp132
+COMMENT $14D6 tmp135
+COMMENT $14DB tmp135
+COMMENT $14E1 tmp136
+COMMENT $14E8 <variable>.x
+COMMENT $14ED extendqihi2: R:b -> R:d ; i.24
+COMMENT $14EE tmp137
+COMMENT $14F0 tmp137
+COMMENT $14F3 tmp139
+COMMENT $14F8 tmp139
+COMMENT $14FE tmp137
+COMMENT $1503 tmp140
+COMMENT $1508 tmp140
+COMMENT $150E tmp141
+COMMENT $1512 D.3186, <variable>.x
+COMMENT $151C extendqihi2: R:b -> R:d ; i.25
+COMMENT $151D tmp142
+COMMENT $151F tmp142
+COMMENT $1522 tmp144
+COMMENT $1527 tmp144
+COMMENT $152D tmp142
+COMMENT $1532 tmp145
+COMMENT $1537 tmp145
+COMMENT $153D tmp146
+COMMENT $1541 <variable>.x
+COMMENT $1546 gateSizeHalf.26, gateSizeHalf
+COMMENT $155B extendqihi2: R:b -> R:d ; i.28
+COMMENT $155C tmp147
+COMMENT $155E tmp147
+COMMENT $1561 tmp149
+COMMENT $1566 tmp149
+COMMENT $156C tmp147
+COMMENT $1571 tmp150
+COMMENT $1576 tmp150
+COMMENT $157C tmp151
+COMMENT $1580 <variable>.x
+COMMENT $1585 gateSizeHalf
+COMMENT $1588 gateSizeHalf.29
+COMMENT $158D gateSizeHalf.29
+COMMENT $1595 extendqihi2: R:b -> R:d
+COMMENT $1596 tmp152
+COMMENT $1598 tmp152
+COMMENT $159B tmp154
+COMMENT $15A0 tmp154
+COMMENT $15A6 tmp152
+COMMENT $15AB tmp155
+COMMENT $15B0 tmp155
+COMMENT $15B6 tmp156
+COMMENT $15BD <variable>.x
+COMMENT $15C2 extendqihi2: R:b -> R:d ; i.30
+COMMENT $15C3 tmp157
+COMMENT $15C5 tmp157
+COMMENT $15C8 tmp159
+COMMENT $15CD tmp159
+COMMENT $15D3 tmp157
+COMMENT $15D8 tmp160
+COMMENT $15DB addhi3,3 ; tmp160
+COMMENT $15E3 tmp162, tmp161
+COMMENT $15E5 D.3197, <variable>.y
+COMMENT $15EF extendqihi2: R:b -> R:d ; i.31
+COMMENT $15F0 tmp163
+COMMENT $15F2 tmp163
+COMMENT $15F5 tmp165
+COMMENT $15FA tmp165
+COMMENT $1600 tmp163
+COMMENT $1605 tmp166
+COMMENT $1608 addhi3,3 ; tmp166
+COMMENT $1610 tmp168, tmp167
+COMMENT $1612 <variable>.y
+COMMENT $1617 gateSizeHalf.32, gateSizeHalf
+COMMENT $162B extendqihi2: R:b -> R:d ; i.34
+COMMENT $162C tmp169
+COMMENT $162E tmp169
+COMMENT $1631 tmp171
+COMMENT $1636 tmp171
+COMMENT $163C tmp169
+COMMENT $1641 tmp172
+COMMENT $1644 addhi3,3 ; tmp172
+COMMENT $164C tmp174, tmp173
+COMMENT $164E <variable>.y
+COMMENT $1653 gateSizeHalf
+COMMENT $1656 gateSizeHalf.35
+COMMENT $165B gateSizeHalf.35
+COMMENT $1663 extendqihi2: R:b -> R:d
+COMMENT $1664 tmp175
+COMMENT $1666 tmp175
+COMMENT $1669 tmp177
+COMMENT $166E tmp177
+COMMENT $1674 tmp175
+COMMENT $1679 tmp178
+COMMENT $167C addhi3,3 ; tmp178
+COMMENT $1684 tmp180, tmp179
+COMMENT $1689 <variable>.y
+COMMENT $168E extendqihi2: R:b -> R:d ; i.36
+COMMENT $168F tmp181
+COMMENT $1691 tmp181
+COMMENT $1694 tmp183
+COMMENT $1699 tmp183
+COMMENT $169F tmp181
+COMMENT $16A4 tmp184
+COMMENT $16A7 addhi3,3 ; tmp184
+COMMENT $16AF tmp186, tmp185
+COMMENT $16B1 D.3208, <variable>.y
+COMMENT $16BB extendqihi2: R:b -> R:d ; i.37
+COMMENT $16BC tmp187
+COMMENT $16BE tmp187
+COMMENT $16C1 tmp189
+COMMENT $16C6 tmp189
+COMMENT $16CC tmp187
+COMMENT $16D1 tmp190
+COMMENT $16D4 addhi3,3 ; tmp190
+COMMENT $16DC tmp192, tmp191
+COMMENT $16DE <variable>.y
+COMMENT $16E3 gateSizeHalf.38, gateSizeHalf
+COMMENT $16F8 extendqihi2: R:b -> R:d ; i.40
+COMMENT $16F9 tmp193
+COMMENT $16FB tmp193
+COMMENT $16FE tmp195
+COMMENT $1703 tmp195
+COMMENT $1709 tmp193
+COMMENT $170E tmp196
+COMMENT $1711 addhi3,3 ; tmp196
+COMMENT $1719 tmp198, tmp197
+COMMENT $171B <variable>.y
+COMMENT $1720 gateSizeHalf
+COMMENT $1723 gateSizeHalf.41
+COMMENT $1728 gateSizeHalf.41
+COMMENT $1730 extendqihi2: R:b -> R:d
+COMMENT $1731 tmp199
+COMMENT $1733 tmp199
+COMMENT $1736 tmp201
+COMMENT $173B tmp201
+COMMENT $1741 tmp199
+COMMENT $1746 tmp202
+COMMENT $1749 addhi3,3 ; tmp202
+COMMENT $1751 tmp204, tmp203
+COMMENT $1756 <variable>.y
+COMMENT $175B extendqihi2: R:b -> R:d ; i.42
+COMMENT $175C tmp205
+COMMENT $175E tmp205
+COMMENT $1760 tmp207
+COMMENT $1764 tmp207
+COMMENT $1768 tmp205
+COMMENT $176C tmp208
+COMMENT $1770 tmp208
+COMMENT $1774 tmp209
+COMMENT $1778 <variable>.z
+COMMENT $177D extendqihi2: R:b -> R:d ; i.43
+COMMENT $177E tmp210
+COMMENT $1780 tmp210
+COMMENT $1782 tmp212
+COMMENT $1786 tmp212
+COMMENT $178A tmp210
+COMMENT $178E tmp213
+COMMENT $1792 tmp213
+COMMENT $1796 tmp214
+COMMENT $179A <variable>.pass
+COMMENT $179F extendqihi2: R:b -> R:d ; i.44
+COMMENT $17A0 tmp215
+COMMENT $17A2 tmp215
+COMMENT $17A4 tmp217
+COMMENT $17A8 tmp217
+COMMENT $17AC tmp215
+COMMENT $17B0 tmp218
+COMMENT $17B4 tmp218
+COMMENT $17B8 tmp219
+COMMENT $17BC <variable>.first
+COMMENT $17BE gameSpeed.45, gameSpeed
+COMMENT $17C1 : ; gameSpeed.45
+COMMENT $17C8 extendqihi2: R:b -> R:d ; i.46
+COMMENT $17C9 tmp220
+COMMENT $17CB tmp220
+COMMENT $17CD tmp222
+COMMENT $17D1 tmp222
+COMMENT $17D5 tmp220
+COMMENT $17D9 tmp223
+COMMENT $17DD tmp223
+COMMENT $17E1 tmp224
+COMMENT $17E5 <variable>.type
+COMMENT $17EA gameSpeed.47, gameSpeed
+COMMENT $17ED : ; gameSpeed.47
+COMMENT $17F4 extendqihi2: R:b -> R:d ; i.48
+COMMENT $17F5 tmp225
+COMMENT $17F7 tmp225
+COMMENT $17F9 tmp227
+COMMENT $17FD tmp227
+COMMENT $1801 tmp225
+COMMENT $1805 tmp228
+COMMENT $1809 tmp228
+COMMENT $180D tmp229
+COMMENT $1813 <variable>.type
+COMMENT $1818 gameSpeed.49, gameSpeed
+COMMENT $181B : ; gameSpeed.49
+COMMENT $1822 extendqihi2: R:b -> R:d ; i.50
+COMMENT $1823 tmp230
+COMMENT $1825 tmp230
+COMMENT $1827 tmp232
+COMMENT $182B tmp232
+COMMENT $182F tmp230
+COMMENT $1833 tmp233
+COMMENT $1837 tmp233
+COMMENT $183B tmp234
+COMMENT $1841 <variable>.type
+COMMENT $1845 gameSpeed.51, gameSpeed
+COMMENT $1848 : ; gameSpeed.51
+COMMENT $184F extendqihi2: R:b -> R:d ; i.52
+COMMENT $1850 tmp235
+COMMENT $1852 tmp235
+COMMENT $1854 tmp237
+COMMENT $1858 tmp237
+COMMENT $185C tmp235
+COMMENT $1860 tmp238
+COMMENT $1864 tmp238
+COMMENT $1868 tmp239
+COMMENT $186E <variable>.type
+COMMENT $1875 extendqihi2: R:b -> R:d ; i.53
+COMMENT $1876 tmp240
+COMMENT $1878 tmp240
+COMMENT $187A tmp242
+COMMENT $187E tmp242
+COMMENT $1882 tmp240
+COMMENT $1886 tmp243
+COMMENT $188A tmp243
+COMMENT $188E tmp244
+COMMENT $1892 <variable>.type
+COMMENT $1894 nextSpeed.54, nextSpeed
+COMMENT $1897 nextSpeed.55
+COMMENT $1898 nextSpeed.55, nextSpeed
+COMMENT $189B nextSpeed
+COMMENT $189E nextSpeed.56
+COMMENT $18A1 nextSpeedLimit.57, nextSpeedLimit
+COMMENT $18A4  ; nextSpeedLimit.57, nextSpeed.56
+COMMENT $18A9 gameSpeed.58, gameSpeed
+COMMENT $18AC : ; gameSpeed.58
+COMMENT $18B2 nextSpeedLimit
+COMMENT $18B7 gameSpeed.59, gameSpeed
+COMMENT $18BA : ; gameSpeed.59
+COMMENT $18C0 nextSpeedLimit
+COMMENT $18C5 gameSpeed.60, gameSpeed
+COMMENT $18C8 : ; gameSpeed.60
+COMMENT $18CE nextSpeedLimit
+COMMENT $18D3 gameSpeed.61, gameSpeed
+COMMENT $18D6 : ; gameSpeed.61
+COMMENT $18DC nextSpeedLimit
+COMMENT $18E3 nextSpeedLimit
+COMMENT $18E6 gameSpeed.62, gameSpeed
+COMMENT $18E9 gameSpeed.63
+COMMENT $18EA gameSpeed.63, gameSpeed
+COMMENT $18ED nextSpeed
+COMMENT $18F0 lives.64, lives
+COMMENT $18F3 : ; lives.64
+COMMENT $18F7 lives.65, lives
+COMMENT $18FA lives.66
+COMMENT $18FB lives.66, lives
+COMMENT $1943 ui
+COMMENT $1952 extendqihi2: R:b -> R:d ; i.67
+COMMENT $1953 tmp386
+COMMENT $1955 tmp386
+COMMENT $1958 tmp388
+COMMENT $195D tmp388
+COMMENT $1963 tmp386
+COMMENT $1968 tmp389
+COMMENT $196D tmp389
+COMMENT $1974 tmp390
+COMMENT $197A <variable>.first
+COMMENT $1982 ui.69, ui
+COMMENT $1985 umulqihi3
+COMMENT $1988 movlsbqihi: R:d -> 95,s ; D.3310, tmp391
+COMMENT $198E extendqihi2: R:b -> R:d
+COMMENT $198F tmp392
+COMMENT $1991 tmp392
+COMMENT $1994 tmp394
+COMMENT $1999 tmp394
+COMMENT $199F tmp392
+COMMENT $19A4 tmp395
+COMMENT $19A9 tmp395
+COMMENT $19B0 tmp396
+COMMENT $19B7 <variable>.z
+COMMENT $19B9 ui.70, ui
+COMMENT $19BC ui.71
+COMMENT $19BD ui.71, ui
+COMMENT $19CD gataCount.75, gataCount
+COMMENT $19D0  ; gataCount.75, i.74
+COMMENT $19DD tmp397
+COMMENT $19E0 tmp397, _u_
+COMMENT $19E4 _u_
+COMMENT $19E8 INIT_ARKOS
+COMMENT $19F1 PLAY_ARKOS
+COMMENT $19FC VIA_t1_cnt_lo
+COMMENT $1A05 deadZone.76, deadZone
+COMMENT $1A08 deadZone.77
+COMMENT $1A0A deadZone.77, deadZone
+COMMENT $1A15 deadZone.78, deadZone
+COMMENT $1A18 deadZone.79
+COMMENT $1A1A deadZone.79, deadZone
+COMMENT $1A1D deadZone.80, deadZone
+COMMENT $1A20 : ; deadZone.80
+COMMENT $1A26 deadZone
+COMMENT $1A2E score.81, score
+COMMENT $1A31 score.81, scorePrint
+COMMENT $1A34 k
+COMMENT $1A3A scorePrint.82, scorePrint
+COMMENT $1A3E tmp398
+COMMENT $1A41 tmp398
+COMMENT $1A43 scorePrint.82
+COMMENT $1A4A tmp399, scorePrintDigit
+COMMENT $1A4E scorePrint.83, scorePrint
+COMMENT $1A52 tmp400
+COMMENT $1A55 tmp400
+COMMENT $1A57 scorePrint.83
+COMMENT $1A5E scorePrint.84, scorePrint
+COMMENT $1A61 tmp401, scorePrintDigit
+COMMENT $1A65 tmp401
+COMMENT $1A6A k.85, k
+COMMENT $1A6D mulqihi3
+COMMENT $1A70 movlsbqihi: R:d -> 97,s ; D.3329, tmp402
+COMMENT $1A73 scorePosX
+COMMENT $1A76 scorePosX.86
+COMMENT $1A7B scorePosX.86
+COMMENT $1A80 scorePosY.87, scorePosY
+COMMENT $1A83 scorePosY.87, a
+COMMENT $1A8A b
+COMMENT $1A8E a
+COMMENT $1A97 b
+COMMENT $1AA3 scorePrintDigit
+COMMENT $1AA7 cmphi
+COMMENT $1AAC k.88, k
+COMMENT $1AAF mulqihi3
+COMMENT $1AB2 movlsbqihi: R:d -> 99,s ; D.3334, tmp403
+COMMENT $1AB5 scorePosX
+COMMENT $1AB8 scorePosX.89
+COMMENT $1ABD scorePosX.89
+COMMENT $1AC2 scorePosY.90, scorePosY
+COMMENT $1AC5 scorePosY.90, a
+COMMENT $1ACC b
+COMMENT $1AD0 a
+COMMENT $1AD9 b
+COMMENT $1AE5 scorePrintDigit
+COMMENT $1AE9 cmphi
+COMMENT $1AEE k.91, k
+COMMENT $1AF1 mulqihi3
+COMMENT $1AF4 movlsbqihi: R:d -> 101,s ; D.3339, tmp404
+COMMENT $1AF7 scorePosX
+COMMENT $1AFA scorePosX.92
+COMMENT $1AFF scorePosX.92
+COMMENT $1B04 scorePosY.93, scorePosY
+COMMENT $1B07 scorePosY.93, a
+COMMENT $1B0E b
+COMMENT $1B12 a
+COMMENT $1B1B b
+COMMENT $1B27 scorePrintDigit
+COMMENT $1B2B cmphi
+COMMENT $1B30 k.94, k
+COMMENT $1B33 mulqihi3
+COMMENT $1B36 movlsbqihi: R:d -> 103,s ; D.3344, tmp405
+COMMENT $1B39 scorePosX
+COMMENT $1B3C scorePosX.95
+COMMENT $1B41 scorePosX.95
+COMMENT $1B46 scorePosY.96, scorePosY
+COMMENT $1B49 scorePosY.96, a
+COMMENT $1B50 b
+COMMENT $1B54 a
+COMMENT $1B5D b
+COMMENT $1B69 scorePrintDigit
+COMMENT $1B6D cmphi
+COMMENT $1B72 k.97, k
+COMMENT $1B75 mulqihi3
+COMMENT $1B78 movlsbqihi: R:d -> 105,s ; D.3349, tmp406
+COMMENT $1B7B scorePosX
+COMMENT $1B7E scorePosX.98
+COMMENT $1B83 scorePosX.98
+COMMENT $1B88 scorePosY.99, scorePosY
+COMMENT $1B8B scorePosY.99, a
+COMMENT $1B92 b
+COMMENT $1B96 a
+COMMENT $1B9F b
+COMMENT $1BAB scorePrintDigit
+COMMENT $1BAF cmphi
+COMMENT $1BB4 k.100, k
+COMMENT $1BB7 mulqihi3
+COMMENT $1BBA movlsbqihi: R:d -> 107,s ; D.3354, tmp407
+COMMENT $1BBD scorePosX
+COMMENT $1BC0 scorePosX.101
+COMMENT $1BC5 scorePosX.101
+COMMENT $1BCA scorePosY.102, scorePosY
+COMMENT $1BCD scorePosY.102, a
+COMMENT $1BD4 b
+COMMENT $1BD8 a
+COMMENT $1BE1 b
+COMMENT $1BED scorePrintDigit
+COMMENT $1BF1 cmphi
+COMMENT $1BF6 k.103, k
+COMMENT $1BF9 mulqihi3
+COMMENT $1BFC movlsbqihi: R:d -> 109,s ; D.3359, tmp408
+COMMENT $1BFF scorePosX
+COMMENT $1C02 scorePosX.104
+COMMENT $1C07 scorePosX.104
+COMMENT $1C0C scorePosY.105, scorePosY
+COMMENT $1C0F scorePosY.105, a
+COMMENT $1C16 b
+COMMENT $1C1A a
+COMMENT $1C23 b
+COMMENT $1C2F scorePrintDigit
+COMMENT $1C33 cmphi
+COMMENT $1C38 k.106, k
+COMMENT $1C3B mulqihi3
+COMMENT $1C3E movlsbqihi: R:d -> 111,s ; D.3364, tmp409
+COMMENT $1C41 scorePosX
+COMMENT $1C44 scorePosX.107
+COMMENT $1C49 scorePosX.107
+COMMENT $1C4E scorePosY.108, scorePosY
+COMMENT $1C51 scorePosY.108, a
+COMMENT $1C58 b
+COMMENT $1C5C a
+COMMENT $1C65 b
+COMMENT $1C71 scorePrintDigit
+COMMENT $1C75 cmphi
+COMMENT $1C7A k.109, k
+COMMENT $1C7D mulqihi3
+COMMENT $1C80 movlsbqihi: R:d -> 113,s ; D.3369, tmp410
+COMMENT $1C83 scorePosX
+COMMENT $1C86 scorePosX.110
+COMMENT $1C8B scorePosX.110
+COMMENT $1C90 scorePosY.111, scorePosY
+COMMENT $1C93 scorePosY.111, a
+COMMENT $1C9A b
+COMMENT $1C9E a
+COMMENT $1CA7 b
+COMMENT $1CB2 scorePrintDigit
+COMMENT $1CB6 cmphi
+COMMENT $1CBB k.112, k
+COMMENT $1CBE mulqihi3
+COMMENT $1CC1 movlsbqihi: R:d -> 115,s ; D.3374, tmp411
+COMMENT $1CC4 scorePosX
+COMMENT $1CC7 scorePosX.113
+COMMENT $1CCC scorePosX.113
+COMMENT $1CD1 scorePosY.114, scorePosY
+COMMENT $1CD4 scorePosY.114, a
+COMMENT $1CDB b
+COMMENT $1CDF a
+COMMENT $1CE8 b
+COMMENT $1CF1 k.115, k
+COMMENT $1CF4 k.116
+COMMENT $1CF5 k.116, k
+COMMENT $1CF8 scorePrint.117, scorePrint
+COMMENT $1CFB scorePrint.117
+COMMENT $1D02 state.118, state
+COMMENT $1D05 state.118
+COMMENT $1D13 tmp412
+COMMENT $1D16 tmp412, score
+COMMENT $1D1B lives
+COMMENT $1D20 gameSpeed
+COMMENT $1D25 nextSpeedLimit
+COMMENT $1D2A state
+COMMENT $1D37 : ; i.121
+COMMENT $1D41 : ; i.122
+COMMENT $1D47 ui
+COMMENT $1D4E ui
+COMMENT $1D51 j.123, j
+COMMENT $1D54 j.124
+COMMENT $1D55 j.124, j
+COMMENT $1D58 j.125, j
+COMMENT $1D5B : ; j.125
+COMMENT $1D5F j
+COMMENT $1D62 j.126, j
+COMMENT $1D65 : ; j.126
+COMMENT $1D6B uj
+COMMENT $1D70 j.127, j
+COMMENT $1D73 : ; j.127
+COMMENT $1D79 uj
+COMMENT $1D7E j.128, j
+COMMENT $1D81 : ; j.128
+COMMENT $1D87 uj
+COMMENT $1D8C j.129, j
+COMMENT $1D8F : ; j.129
+COMMENT $1D95 uj
+COMMENT $1D9A j.130, j
+COMMENT $1D9D : ; j.130
+COMMENT $1DA3 uj
+COMMENT $1DAA uj
+COMMENT $1DAD ui.131, ui
+COMMENT $1DB0 ui.131, a
+COMMENT $1DB4 a
+COMMENT $1DC9 uj.132, uj
+COMMENT $1DCC uj.132, a
+COMMENT $1DD0 a
+COMMENT $1DD7 tmp413
+COMMENT $1DDA tmp413, u
+COMMENT $1DE0 y
+COMMENT $1DE4 x
+COMMENT $1DEA scaleMove
+COMMENT $1DF0 scaleList
+COMMENT $1DF4 y
+COMMENT $1DF8 extendqihi2: R:b -> R:d
+COMMENT $1E02 x
+COMMENT $1E06 extendqihi2: R:b -> R:d
+COMMENT $1E0B andqi(ZERO)
+COMMENT $1E0C xReg.1, D.3803, D.3801
+COMMENT $1E0E xReg.1, xReg
+COMMENT $1E12 scaleMove
+COMMENT $1E16 zero_extendqihi: R:b -> R:d
+COMMENT $1E20 scaleList
+COMMENT $1E24 zero_extendqihi: R:b -> R:d
+COMMENT $1E27 dReg.2
+COMMENT $1E29 addhi3,3 ;, D.3807
+COMMENT $1E2B dReg.2
+COMMENT $1E2D dReg.2, dReg
+COMMENT $1E31 dReg
+COMMENT $1E35 xReg
+COMMENT $1E39 u
+COMMENT $1E3D PRINT_SYNC_LIST
+COMMENT $1E43 state.133, state
+COMMENT $1E46 : ; state.133
+COMMENT $1E51 lives.134, lives
+COMMENT $1E54 : ; lives.134
+COMMENT $1E58 scorePosX
+COMMENT $1E5B scorePosX.135
+COMMENT $1E5D scorePosX.135
+COMMENT $1E63 scorePosY.136, scorePosY
+COMMENT $1E66 scorePosY.136, a
+COMMENT $1E6D b
+COMMENT $1E71 a
+COMMENT $1E7A b
+COMMENT $1E86 lives.137, lives
+COMMENT $1E89 : ; lives.137
+COMMENT $1E8D scorePosX
+COMMENT $1E90 scorePosX.138
+COMMENT $1E92 scorePosX.138
+COMMENT $1E98 scorePosY.139, scorePosY
+COMMENT $1E9B scorePosY.139, a
+COMMENT $1EA2 b
+COMMENT $1EA6 a
+COMMENT $1EAF b
+COMMENT $1EBA lives.140, lives
+COMMENT $1EBD : ; lives.140
+COMMENT $1EC1 scorePosX
+COMMENT $1EC4 scorePosX.141
+COMMENT $1EC6 scorePosX.141
+COMMENT $1ECC scorePosY.142, scorePosY
+COMMENT $1ECF scorePosY.142, a
+COMMENT $1ED6 b
+COMMENT $1EDA a
+COMMENT $1EE3 b
+COMMENT $1EF5 j.144, j
+COMMENT $1EFE deadZone.146, deadZone
+COMMENT $1F01  ; deadZone.146, i.145
+COMMENT $1F06 deadZone
+COMMENT $1F09 deadZone.147
+COMMENT $1F0B deadZone.147
+COMMENT $1F14  ; i.148, D.3417
+COMMENT $1F2E mulqihi3
+COMMENT $1F37 zero_extendqihi: R:b -> R:d
+COMMENT $1F45 movlsbqihi: msb:,s -> R:b ; tmp417
+COMMENT $1F63 mulqihi3
+COMMENT $1F6C zero_extendqihi: R:b -> R:d
+COMMENT $1F7A movlsbqihi: msb:,s -> R:b ; tmp421
+COMMENT $1F83 j
+COMMENT $1F86 j.155
+COMMENT $1F89 deadZone.156, deadZone
+COMMENT $1F8C  ; deadZone.156, j.155
+COMMENT $1F91 deadZone
+COMMENT $1F94 deadZone.157
+COMMENT $1F96 deadZone.157
+COMMENT $1F9C j.158, j
+COMMENT $1F9F  ; j.158, D.3432
+COMMENT $1FA4 j
+COMMENT $1FAA j.159, j
+COMMENT $1FAD j.159
+COMMENT $1FB0 j
+COMMENT $1FB3 j.160
+COMMENT $1FB6 j.160
+COMMENT $1FB9 mulqihi3
+COMMENT $1FC2 zero_extendqihi: R:b -> R:d
+COMMENT $1FC5 j.160
+COMMENT $1FD0 movlsbqihi: msb:,s -> R:b ; tmp425
+COMMENT $1FD2 j.161
+COMMENT $1FD5 j.161, j
+COMMENT $1FDA j.162, j
+COMMENT $1FDD j.162
+COMMENT $1FE0 j
+COMMENT $1FE3 j.163
+COMMENT $1FE5 j.163
+COMMENT $1FEE mulqihi3
+COMMENT $1FF7 zero_extendqihi: R:b -> R:d
+COMMENT $2005 movlsbqihi: msb:,s -> R:b ; tmp429
+COMMENT $200A j.164
+COMMENT $200B j.164, j
+COMMENT $2011 : ; i.165
+COMMENT $201F : ; i.166
+COMMENT $2028 j.167, j
+COMMENT $202B : ; j.167
+COMMENT $2031 j
+COMMENT $2036 j.168, j
+COMMENT $2039 : ; j.168
+COMMENT $203F j
+COMMENT $2042 playerX
+COMMENT $2045 playerX.169
+COMMENT $204C playerX.171, playerX.169
+COMMENT $2050 playerX.171, playerX
+COMMENT $2053 playerY
+COMMENT $2056 playerY.172
+COMMENT $205A j.173, j
+COMMENT $205D playerY.174, playerY.172
+COMMENT $2061 playerY.174, playerY
+COMMENT $2064 playerX.175, playerX
+COMMENT $2067 : ; playerX.175
+COMMENT $206D playerX
+COMMENT $2070 playerX.176, playerX
+COMMENT $2073 : ; playerX.176
+COMMENT $2079 playerX
+COMMENT $207C playerY.177, playerY
+COMMENT $207F : ; playerY.177
+COMMENT $2085 playerY
+COMMENT $2088 playerY.178, playerY
+COMMENT $208B : ; playerY.178
+COMMENT $2091 playerY
+COMMENT $2099 playerX
+COMMENT $209C playerX.179
+COMMENT $20A0 playerY.180, playerY
+COMMENT $20A3 tmp430
+COMMENT $20A6 tmp430, u
+COMMENT $20AA playerY.180, y
+COMMENT $20AE playerX.179
+COMMENT $20B2 x
+COMMENT $20B8 scaleMove
+COMMENT $20BE scaleList
+COMMENT $20C2 y
+COMMENT $20C6 extendqihi2: R:b -> R:d
+COMMENT $20D0 x
+COMMENT $20D4 extendqihi2: R:b -> R:d
+COMMENT $20D9 andqi(ZERO)
+COMMENT $20DA xReg.1, D.3825, D.3823
+COMMENT $20DC xReg.1, xReg
+COMMENT $20E0 scaleMove
+COMMENT $20E4 zero_extendqihi: R:b -> R:d
+COMMENT $20EE scaleList
+COMMENT $20F2 zero_extendqihi: R:b -> R:d
+COMMENT $20F5 dReg.2
+COMMENT $20F7 addhi3,3 ;, D.3829
+COMMENT $20F9 dReg.2
+COMMENT $20FB dReg.2, dReg
+COMMENT $20FF dReg
+COMMENT $2103 xReg
+COMMENT $2107 u
+COMMENT $210B PRINT_SYNC_LIST
+COMMENT $2111 ui.181, ui
+COMMENT $2114 ui.182, ui
+COMMENT $2117 : ; ui.182
+COMMENT $2120 ui.183, ui
+COMMENT $2123 : ; ui.183
+COMMENT $212C ui.184, ui
+COMMENT $212F ui.184, a
+COMMENT $2133 a
+COMMENT $213A playerX
+COMMENT $213D playerX.185
+COMMENT $2141 playerY.186, playerY
+COMMENT $2144 tmp431
+COMMENT $2147 tmp431, u
+COMMENT $214B playerY.186, y
+COMMENT $214F playerX.185
+COMMENT $2153 x
+COMMENT $2159 scaleMove
+COMMENT $215F scaleList
+COMMENT $2163 y
+COMMENT $2167 extendqihi2: R:b -> R:d
+COMMENT $2171 x
+COMMENT $2175 extendqihi2: R:b -> R:d
+COMMENT $217A andqi(ZERO)
+COMMENT $217B xReg.1, D.3842, D.3840
+COMMENT $217D xReg.1, xReg
+COMMENT $2181 scaleMove
+COMMENT $2185 zero_extendqihi: R:b -> R:d
+COMMENT $218F scaleList
+COMMENT $2193 zero_extendqihi: R:b -> R:d
+COMMENT $2196 dReg.2
+COMMENT $2198 addhi3,3 ;, D.3846
+COMMENT $219A dReg.2
+COMMENT $219C dReg.2, dReg
+COMMENT $21A0 dReg
+COMMENT $21A4 xReg
+COMMENT $21A8 u
+COMMENT $21AC PRINT_SYNC_LIST
+COMMENT $21BF extendqihi2: R:b -> R:d ; i.188
+COMMENT $21C0 tmp432
+COMMENT $21C2 tmp432
+COMMENT $21C5 tmp434
+COMMENT $21CA tmp434
+COMMENT $21D0 tmp432
+COMMENT $21D5 tmp435
+COMMENT $21DA tmp435
+COMMENT $21E1 tmp436
+COMMENT $21E5 <variable>.z
+COMMENT $21EB gameSpeed
+COMMENT $21EE gameSpeed.189
+COMMENT $21F4 gameSpeed.189
+COMMENT $21FE extendqihi2: R:b -> R:d
+COMMENT $21FF tmp437
+COMMENT $2201 tmp437
+COMMENT $2204 tmp439
+COMMENT $2209 tmp439
+COMMENT $220F tmp437
+COMMENT $2214 tmp440
+COMMENT $2219 tmp440
+COMMENT $2220 tmp441
+COMMENT $2228 <variable>.z
+COMMENT $222D extendqihi2: R:b -> R:d ; i.190
+COMMENT $222E tmp442
+COMMENT $2230 tmp442
+COMMENT $2233 tmp444
+COMMENT $2238 tmp444
+COMMENT $223E tmp442
+COMMENT $2243 tmp445
+COMMENT $2248 tmp445
+COMMENT $224F tmp446
+COMMENT $2253 D.3472, <variable>.z
+COMMENT $2255 : ; D.3472
+COMMENT $225E extendqihi2: R:b -> R:d ; i.191
+COMMENT $225F tmp447
+COMMENT $2261 tmp447
+COMMENT $2264 tmp449
+COMMENT $2269 tmp449
+COMMENT $226F tmp447
+COMMENT $2274 tmp450
+COMMENT $2279 tmp450
+COMMENT $2280 tmp451
+COMMENT $2284 D.3474, <variable>.z
+COMMENT $2286 : ; D.3474
+COMMENT $228F extendqihi2: R:b -> R:d ; i.192
+COMMENT $2290 tmp452
+COMMENT $2292 tmp452
+COMMENT $2295 tmp454
+COMMENT $229A tmp454
+COMMENT $22A0 tmp452
+COMMENT $22A5 tmp455
+COMMENT $22AA tmp455
+COMMENT $22B1 tmp456
+COMMENT $22B5 D.3476, <variable>.pass
+COMMENT $22BF extendqihi2: R:b -> R:d ; i.193
+COMMENT $22C0 tmp457
+COMMENT $22C2 tmp457
+COMMENT $22C5 tmp459
+COMMENT $22CA tmp459
+COMMENT $22D0 tmp457
+COMMENT $22D5 tmp460
+COMMENT $22DA tmp460
+COMMENT $22E1 tmp461
+COMMENT $22E5 <variable>.x
+COMMENT $22EB gateSizeCenter
+COMMENT $22EE gateSizeCenter.194
+COMMENT $22F4 gateSizeCenter.194
+COMMENT $22FA playerX.195, playerX
+COMMENT $22FD  ; playerX.195, D.3480
+COMMENT $2308 extendqihi2: R:b -> R:d ; i.196
+COMMENT $2309 tmp462
+COMMENT $230B tmp462
+COMMENT $230E tmp464
+COMMENT $2313 tmp464
+COMMENT $2319 tmp462
+COMMENT $231E tmp465
+COMMENT $2323 tmp465
+COMMENT $232A tmp466
+COMMENT $232E <variable>.x
+COMMENT $2334 gateSizeCenter
+COMMENT $2337 gateSizeCenter.197
+COMMENT $233D gateSizeCenter.197
+COMMENT $2343 playerX.198, playerX
+COMMENT $2346  ; playerX.198, D.3485
+COMMENT $2351 extendqihi2: R:b -> R:d ; i.199
+COMMENT $2352 tmp467
+COMMENT $2354 tmp467
+COMMENT $2357 tmp469
+COMMENT $235C tmp469
+COMMENT $2362 tmp467
+COMMENT $2367 tmp470
+COMMENT $236A addhi3,3 ; tmp470
+COMMENT $2373 tmp472, tmp471
+COMMENT $2375 <variable>.y
+COMMENT $237B gateSizeCenter
+COMMENT $237E gateSizeCenter.200
+COMMENT $2384 gateSizeCenter.200
+COMMENT $238A playerY.201, playerY
+COMMENT $238D  ; playerY.201, D.3490
+COMMENT $2398 extendqihi2: R:b -> R:d ; i.202
+COMMENT $2399 tmp473
+COMMENT $239B tmp473
+COMMENT $239E tmp475
+COMMENT $23A3 tmp475
+COMMENT $23A9 tmp473
+COMMENT $23AE tmp476
+COMMENT $23B1 addhi3,3 ; tmp476
+COMMENT $23BA tmp478, tmp477
+COMMENT $23BC <variable>.y
+COMMENT $23C2 gateSizeCenter
+COMMENT $23C5 gateSizeCenter.203
+COMMENT $23CB gateSizeCenter.203
+COMMENT $23D1 playerY.204, playerY
+COMMENT $23D4  ; playerY.204, D.3495
+COMMENT $23DA score.205, score
+COMMENT $23DD score.206,, score.205
+COMMENT $23DF score.206, score
+COMMENT $23E5 extendqihi2: R:b -> R:d ; i.207
+COMMENT $23E6 tmp479
+COMMENT $23E8 tmp479
+COMMENT $23EB tmp481
+COMMENT $23F0 tmp481
+COMMENT $23F6 tmp479
+COMMENT $23FB tmp482
+COMMENT $2400 tmp482
+COMMENT $2407 tmp483
+COMMENT $240D <variable>.pass
+COMMENT $2412 extendqihi2: R:b -> R:d ; i.208
+COMMENT $2413 tmp484
+COMMENT $2415 tmp484
+COMMENT $2418 tmp486
+COMMENT $241D tmp486
+COMMENT $2423 tmp484
+COMMENT $2428 tmp487
+COMMENT $242D tmp487
+COMMENT $2434 tmp488
+COMMENT $2438 <variable>.x
+COMMENT $243E gateSizeQuater
+COMMENT $2441 gateSizeQuater.209
+COMMENT $2447 gateSizeQuater.209
+COMMENT $244D playerX.210, playerX
+COMMENT $2450  ; playerX.210, D.3503
+COMMENT $245B extendqihi2: R:b -> R:d ; i.211
+COMMENT $245C tmp489
+COMMENT $245E tmp489
+COMMENT $2461 tmp491
+COMMENT $2466 tmp491
+COMMENT $246C tmp489
+COMMENT $2471 tmp492
+COMMENT $2476 tmp492
+COMMENT $247D tmp493
+COMMENT $2481 <variable>.x
+COMMENT $2487 gateSizeQuater
+COMMENT $248A gateSizeQuater.212
+COMMENT $2490 gateSizeQuater.212
+COMMENT $2496 playerX.213, playerX
+COMMENT $2499  ; playerX.213, D.3508
+COMMENT $24A4 extendqihi2: R:b -> R:d ; i.214
+COMMENT $24A5 tmp494
+COMMENT $24A7 tmp494
+COMMENT $24AA tmp496
+COMMENT $24AF tmp496
+COMMENT $24B5 tmp494
+COMMENT $24BA tmp497
+COMMENT $24BD addhi3,3 ; tmp497
+COMMENT $24C6 tmp499, tmp498
+COMMENT $24C8 <variable>.y
+COMMENT $24CE gateSizeQuater
+COMMENT $24D1 gateSizeQuater.215
+COMMENT $24D7 gateSizeQuater.215
+COMMENT $24DD playerY.216, playerY
+COMMENT $24E0  ; playerY.216, D.3513
+COMMENT $24EB extendqihi2: R:b -> R:d ; i.217
+COMMENT $24EC tmp500
+COMMENT $24EE tmp500
+COMMENT $24F1 tmp502
+COMMENT $24F6 tmp502
+COMMENT $24FC tmp500
+COMMENT $2501 tmp503
+COMMENT $2504 addhi3,3 ; tmp503
+COMMENT $250D tmp505, tmp504
+COMMENT $250F <variable>.y
+COMMENT $2515 gateSizeQuater
+COMMENT $2518 gateSizeQuater.218
+COMMENT $251E gateSizeQuater.218
+COMMENT $2524 playerY.219, playerY
+COMMENT $2527  ; playerY.219, D.3518
+COMMENT $252D score.220, score
+COMMENT $2530 score.221,, score.220
+COMMENT $2532 score.221, score
+COMMENT $2538 extendqihi2: R:b -> R:d ; i.222
+COMMENT $2539 tmp506
+COMMENT $253B tmp506
+COMMENT $253E tmp508
+COMMENT $2543 tmp508
+COMMENT $2549 tmp506
+COMMENT $254E tmp509
+COMMENT $2553 tmp509
+COMMENT $255A tmp510
+COMMENT $2560 <variable>.pass
+COMMENT $2565 extendqihi2: R:b -> R:d ; i.223
+COMMENT $2566 tmp511
+COMMENT $2568 tmp511
+COMMENT $256B tmp513
+COMMENT $2570 tmp513
+COMMENT $2576 tmp511
+COMMENT $257B tmp514
+COMMENT $2580 tmp514
+COMMENT $2587 tmp515
+COMMENT $258B <variable>.x
+COMMENT $2591 gateSizeHalf
+COMMENT $2594 gateSizeHalf.224
+COMMENT $259A gateSizeHalf.224
+COMMENT $25A0 playerX.225, playerX
+COMMENT $25A3  ; playerX.225, D.3526
+COMMENT $25AE extendqihi2: R:b -> R:d ; i.226
+COMMENT $25AF tmp516
+COMMENT $25B1 tmp516
+COMMENT $25B4 tmp518
+COMMENT $25B9 tmp518
+COMMENT $25BF tmp516
+COMMENT $25C4 tmp519
+COMMENT $25C9 tmp519
+COMMENT $25D0 tmp520
+COMMENT $25D4 <variable>.x
+COMMENT $25DA gateSizeHalf
+COMMENT $25DD gateSizeHalf.227
+COMMENT $25E3 gateSizeHalf.227
+COMMENT $25E9 playerX.228, playerX
+COMMENT $25EC  ; playerX.228, D.3531
+COMMENT $25F7 extendqihi2: R:b -> R:d ; i.229
+COMMENT $25F8 tmp521
+COMMENT $25FA tmp521
+COMMENT $25FD tmp523
+COMMENT $2602 tmp523
+COMMENT $2608 tmp521
+COMMENT $260D tmp524
+COMMENT $2610 addhi3,3 ; tmp524
+COMMENT $2619 tmp526, tmp525
+COMMENT $261B <variable>.y
+COMMENT $2621 gateSizeHalf
+COMMENT $2624 gateSizeHalf.230
+COMMENT $262A gateSizeHalf.230
+COMMENT $2630 playerY.231, playerY
+COMMENT $2633  ; playerY.231, D.3536
+COMMENT $263E extendqihi2: R:b -> R:d ; i.232
+COMMENT $263F tmp527
+COMMENT $2641 tmp527
+COMMENT $2644 tmp529
+COMMENT $2649 tmp529
+COMMENT $264F tmp527
+COMMENT $2654 tmp530
+COMMENT $2657 addhi3,3 ; tmp530
+COMMENT $2660 tmp532, tmp531
+COMMENT $2662 <variable>.y
+COMMENT $2668 gateSizeHalf
+COMMENT $266B gateSizeHalf.233
+COMMENT $2671 gateSizeHalf.233
+COMMENT $2677 playerY.234, playerY
+COMMENT $267A  ; playerY.234, D.3541
+COMMENT $2682 score.235, score
+COMMENT $2685 score.236,, score.235
+COMMENT $2687 score.236, score
+COMMENT $268D extendqihi2: R:b -> R:d ; i.237
+COMMENT $268E tmp533
+COMMENT $2690 tmp533
+COMMENT $2693 tmp535
+COMMENT $2698 tmp535
+COMMENT $269E tmp533
+COMMENT $26A3 tmp536
+COMMENT $26A8 tmp536
+COMMENT $26AF tmp537
+COMMENT $26B5 <variable>.pass
+COMMENT $26BD extendqihi2: R:b -> R:d ; i.238
+COMMENT $26BE tmp538
+COMMENT $26C0 tmp538
+COMMENT $26C3 tmp540
+COMMENT $26C8 tmp540
+COMMENT $26CE tmp538
+COMMENT $26D3 tmp541
+COMMENT $26D8 tmp541
+COMMENT $26DF tmp542
+COMMENT $26E3 D.3547, <variable>.z
+COMMENT $26E5 : ; D.3547
+COMMENT $26EE extendqihi2: R:b -> R:d ; i.239
+COMMENT $26EF tmp543
+COMMENT $26F1 tmp543
+COMMENT $26F4 tmp545
+COMMENT $26F9 tmp545
+COMMENT $26FF tmp543
+COMMENT $2704 tmp546
+COMMENT $2709 tmp546
+COMMENT $2710 tmp547
+COMMENT $2714 D.3549, <variable>.pass
+COMMENT $271C extendqihi2: R:b -> R:d ; i.240
+COMMENT $271D tmp548
+COMMENT $271F tmp548
+COMMENT $2722 tmp550
+COMMENT $2727 tmp550
+COMMENT $272D tmp548
+COMMENT $2732 tmp551
+COMMENT $2737 tmp551
+COMMENT $273E tmp552
+COMMENT $2742 D.3551, <variable>.first
+COMMENT $2744 : ; D.3551
+COMMENT $2748 lives.241, lives
+COMMENT $274B lives.242
+COMMENT $274C lives.242, lives
+COMMENT $274F lives.243, lives
+COMMENT $2752 lives.243
+COMMENT $2755 state
+COMMENT $275D uj
+COMMENT $2763 extendqihi2: R:b -> R:d ; i.244
+COMMENT $2764 tmp553
+COMMENT $2766 tmp553
+COMMENT $2769 tmp555
+COMMENT $276E tmp555
+COMMENT $2774 tmp553
+COMMENT $2779 tmp556
+COMMENT $277E tmp556
+COMMENT $2785 tmp557
+COMMENT $2789 D.3556, <variable>.z
+COMMENT $278B zero_extendqihi: R:b -> R:d ; D.3556, tmp559
+COMMENT $278C tmp561
+COMMENT $278F tmp561
+COMMENT $2791 tmp559
+COMMENT $2798 movlsbqihi: R:x -> R:b ; tmp560, ui.245
+COMMENT $279A ui.245, ui
+COMMENT $279D ui.246, ui
+COMMENT $27A0 : ; ui.246
+COMMENT $27A6 ui
+COMMENT $27AF extendqihi2: R:b -> R:d ; i.247
+COMMENT $27B0 tmp562
+COMMENT $27B2 tmp562
+COMMENT $27B5 tmp564
+COMMENT $27BA tmp564
+COMMENT $27C0 tmp562
+COMMENT $27C5 tmp565
+COMMENT $27CA tmp565
+COMMENT $27D1 tmp566
+COMMENT $27D5 D.3560, <variable>.z
+COMMENT $27D7 : ; D.3560
+COMMENT $27DB uj
+COMMENT $27DE uj.248
+COMMENT $27E5 extendqihi2: R:b -> R:d ; i.249
+COMMENT $27E6 tmp567
+COMMENT $27E8 tmp567
+COMMENT $27EB tmp569
+COMMENT $27F0 tmp569
+COMMENT $27F6 tmp567
+COMMENT $27FB tmp570
+COMMENT $2800 tmp570
+COMMENT $2807 tmp571
+COMMENT $280B D.3563, <variable>.z
+COMMENT $280D D.3564, uj.248
+COMMENT $2812 ui.250
+COMMENT $2814 ui.250, ui
+COMMENT $281C extendqihi2: R:b -> R:d ; i.251
+COMMENT $281D tmp572
+COMMENT $281F tmp572
+COMMENT $2822 tmp574
+COMMENT $2827 tmp574
+COMMENT $282D tmp572
+COMMENT $2832 tmp575
+COMMENT $2837 tmp575
+COMMENT $283E tmp576
+COMMENT $2842 D.3567, <variable>.pass
+COMMENT $2849 ui
+COMMENT $284C ui.252, ui
+COMMENT $284F ui.252, a
+COMMENT $2853 a
+COMMENT $285D extendqihi2: R:b -> R:d ; i.253
+COMMENT $285E tmp577
+COMMENT $2860 tmp577
+COMMENT $2863 tmp579
+COMMENT $2868 tmp579
+COMMENT $286E tmp577
+COMMENT $2873 tmp580
+COMMENT $2878 tmp580
+COMMENT $287F tmp581
+COMMENT $2883 D.3570, <variable>.type
+COMMENT $288D extendqihi2: R:b -> R:d ; i.254
+COMMENT $288E tmp582
+COMMENT $2890 tmp582
+COMMENT $2893 tmp584
+COMMENT $2898 tmp584
+COMMENT $289E tmp582
+COMMENT $28A3 tmp585
+COMMENT $28A8 tmp585
+COMMENT $28AF tmp586
+COMMENT $28B3 D.3572, <variable>.z
+COMMENT $28B5 zero_extendqihi: R:b -> R:d ; D.3572, tmp588
+COMMENT $28B6 tmp590
+COMMENT $28B9 tmp590
+COMMENT $28BB tmp588
+COMMENT $28C2 movlsbqihi: R:x -> R:b ; tmp589
+COMMENT $28CB extendqihi2: R:b -> R:d ; i.255
+COMMENT $28CC tmp591
+COMMENT $28CE tmp591
+COMMENT $28D1 tmp593
+COMMENT $28D6 tmp593
+COMMENT $28DC tmp591
+COMMENT $28E1 tmp594
+COMMENT $28E6 tmp594
+COMMENT $28ED tmp595
+COMMENT $28F1 <variable>.x
+COMMENT $28FA extendqihi2: R:b -> R:d ; i.256
+COMMENT $28FB tmp596
+COMMENT $28FD tmp596
+COMMENT $2900 tmp598
+COMMENT $2905 tmp598
+COMMENT $290B tmp596
+COMMENT $2910 tmp599
+COMMENT $2913 addhi3,3 ; tmp599
+COMMENT $291C tmp601, tmp600
+COMMENT $291E D.3577, <variable>.y
+COMMENT $2920 tmp602
+COMMENT $2923 tmp602, u
+COMMENT $2927 D.3577, y
+COMMENT $292F x
+COMMENT $2935 scaleMove
+COMMENT $293D scaleList
+COMMENT $2941 y
+COMMENT $2945 extendqihi2: R:b -> R:d
+COMMENT $294F x
+COMMENT $2953 extendqihi2: R:b -> R:d
+COMMENT $2958 andqi(ZERO)
+COMMENT $2959 xReg.1, D.3859, D.3857
+COMMENT $295B xReg.1, xReg
+COMMENT $295F scaleMove
+COMMENT $2963 zero_extendqihi: R:b -> R:d
+COMMENT $296D scaleList
+COMMENT $2971 zero_extendqihi: R:b -> R:d
+COMMENT $2974 dReg.2
+COMMENT $2976 addhi3,3 ;, D.3863
+COMMENT $2978 dReg.2
+COMMENT $297A dReg.2, dReg
+COMMENT $297E dReg
+COMMENT $2982 xReg
+COMMENT $2986 u
+COMMENT $298A PRINT_SYNC_LIST
+COMMENT $2993 extendqihi2: R:b -> R:d ; i.257
+COMMENT $2994 tmp603
+COMMENT $2996 tmp603
+COMMENT $2999 tmp605
+COMMENT $299E tmp605
+COMMENT $29A4 tmp603
+COMMENT $29A9 tmp606
+COMMENT $29AE tmp606
+COMMENT $29B5 tmp607
+COMMENT $29B9 D.3579, <variable>.type
+COMMENT $29BB : ; D.3579
+COMMENT $29C4 extendqihi2: R:b -> R:d ; i.258
+COMMENT $29C5 tmp608
+COMMENT $29C7 tmp608
+COMMENT $29CA tmp610
+COMMENT $29CF tmp610
+COMMENT $29D5 tmp608
+COMMENT $29DA tmp611
+COMMENT $29DF tmp611
+COMMENT $29E6 tmp612
+COMMENT $29EA D.3581, <variable>.z
+COMMENT $29EC zero_extendqihi: R:b -> R:d ; D.3581, tmp614
+COMMENT $29ED tmp616
+COMMENT $29F0 tmp616
+COMMENT $29F2 tmp614
+COMMENT $29F9 movlsbqihi: R:x -> R:b ; tmp615
+COMMENT $2A02 extendqihi2: R:b -> R:d ; i.259
+COMMENT $2A03 tmp617
+COMMENT $2A05 tmp617
+COMMENT $2A08 tmp619
+COMMENT $2A0D tmp619
+COMMENT $2A13 tmp617
+COMMENT $2A18 tmp620
+COMMENT $2A1D tmp620
+COMMENT $2A24 tmp621
+COMMENT $2A28 <variable>.x
+COMMENT $2A31 extendqihi2: R:b -> R:d ; i.260
+COMMENT $2A32 tmp622
+COMMENT $2A34 tmp622
+COMMENT $2A37 tmp624
+COMMENT $2A3C tmp624
+COMMENT $2A42 tmp622
+COMMENT $2A47 tmp625
+COMMENT $2A4A addhi3,3 ; tmp625
+COMMENT $2A53 tmp627, tmp626
+COMMENT $2A55 D.3586, <variable>.y
+COMMENT $2A57 tmp628
+COMMENT $2A5A tmp628, u
+COMMENT $2A5E D.3586, y
+COMMENT $2A66 x
+COMMENT $2A6C scaleMove
+COMMENT $2A74 scaleList
+COMMENT $2A78 y
+COMMENT $2A7C extendqihi2: R:b -> R:d
+COMMENT $2A86 x
+COMMENT $2A8A extendqihi2: R:b -> R:d
+COMMENT $2A8F andqi(ZERO)
+COMMENT $2A90 xReg.1, D.3875, D.3873
+COMMENT $2A92 xReg.1, xReg
+COMMENT $2A96 scaleMove
+COMMENT $2A9A zero_extendqihi: R:b -> R:d
+COMMENT $2AA4 scaleList
+COMMENT $2AA8 zero_extendqihi: R:b -> R:d
+COMMENT $2AAB dReg.2
+COMMENT $2AAD addhi3,3 ;, D.3879
+COMMENT $2AAF dReg.2
+COMMENT $2AB1 dReg.2, dReg
+COMMENT $2AB5 dReg
+COMMENT $2AB9 xReg
+COMMENT $2ABD u
+COMMENT $2AC1 PRINT_SYNC_LIST
+COMMENT $2ACA extendqihi2: R:b -> R:d ; i.261
+COMMENT $2ACB tmp629
+COMMENT $2ACD tmp629
+COMMENT $2ACF tmp631
+COMMENT $2AD3 tmp631
+COMMENT $2AD7 tmp629
+COMMENT $2ADB tmp632
+COMMENT $2ADF tmp632
+COMMENT $2AE4 tmp633
+COMMENT $2AE8 D.3588, <variable>.type
+COMMENT $2AEA : ; D.3588
+COMMENT $2AF3 extendqihi2: R:b -> R:d ; i.262
+COMMENT $2AF4 tmp634
+COMMENT $2AF6 tmp634
+COMMENT $2AF8 tmp636
+COMMENT $2AFC tmp636
+COMMENT $2B00 tmp634
+COMMENT $2B04 tmp637
+COMMENT $2B08 tmp637
+COMMENT $2B0D tmp638
+COMMENT $2B11 D.3590, <variable>.z
+COMMENT $2B13 zero_extendqihi: R:b -> R:d ; D.3590, tmp640
+COMMENT $2B14 tmp642
+COMMENT $2B17 tmp642
+COMMENT $2B19 tmp640
+COMMENT $2B20 movlsbqihi: R:x -> R:b ; tmp641
+COMMENT $2B29 extendqihi2: R:b -> R:d ; i.263
+COMMENT $2B2A tmp643
+COMMENT $2B2C tmp643
+COMMENT $2B2E tmp645
+COMMENT $2B32 tmp645
+COMMENT $2B36 tmp643
+COMMENT $2B3A tmp646
+COMMENT $2B3E tmp646
+COMMENT $2B43 tmp647
+COMMENT $2B47 <variable>.x
+COMMENT $2B50 extendqihi2: R:b -> R:d ; i.264
+COMMENT $2B51 tmp648
+COMMENT $2B53 tmp648
+COMMENT $2B55 tmp650
+COMMENT $2B59 tmp650
+COMMENT $2B5D tmp648
+COMMENT $2B61 tmp651
+COMMENT $2B63 addhi3,3 ; tmp651
+COMMENT $2B6C tmp653, tmp652
+COMMENT $2B6E D.3595, <variable>.y
+COMMENT $2B70 tmp654
+COMMENT $2B73 tmp654, u
+COMMENT $2B77 D.3595, y
+COMMENT $2B7F x
+COMMENT $2B85 scaleMove
+COMMENT $2B8D scaleList
+COMMENT $2B91 y
+COMMENT $2B95 extendqihi2: R:b -> R:d
+COMMENT $2B9F x
+COMMENT $2BA3 extendqihi2: R:b -> R:d
+COMMENT $2BA8 andqi(ZERO)
+COMMENT $2BA9 xReg.1, D.3891, D.3889
+COMMENT $2BAB xReg.1, xReg
+COMMENT $2BAF scaleMove
+COMMENT $2BB3 zero_extendqihi: R:b -> R:d
+COMMENT $2BBD scaleList
+COMMENT $2BC1 zero_extendqihi: R:b -> R:d
+COMMENT $2BC4 dReg.2
+COMMENT $2BC6 addhi3,3 ;, D.3895
+COMMENT $2BC8 dReg.2
+COMMENT $2BCA dReg.2, dReg
+COMMENT $2BCE dReg
+COMMENT $2BD2 xReg
+COMMENT $2BD6 u
+COMMENT $2BDA PRINT_SYNC_LIST
+COMMENT $2BE3 extendqihi2: R:b -> R:d ; i.265
+COMMENT $2BE4 tmp655
+COMMENT $2BE6 tmp655
+COMMENT $2BE8 tmp657
+COMMENT $2BEC tmp657
+COMMENT $2BF0 tmp655
+COMMENT $2BF4 tmp658
+COMMENT $2BF8 tmp658
+COMMENT $2BFD tmp659
+COMMENT $2C01 D.3597, <variable>.z
+COMMENT $2C03 zero_extendqihi: R:b -> R:d ; D.3597, tmp661
+COMMENT $2C04 tmp663
+COMMENT $2C07 tmp663
+COMMENT $2C09 tmp661
+COMMENT $2C10 movlsbqihi: R:x -> R:b ; tmp662
+COMMENT $2C19 extendqihi2: R:b -> R:d ; i.266
+COMMENT $2C1A tmp664
+COMMENT $2C1C tmp664
+COMMENT $2C1E tmp666
+COMMENT $2C22 tmp666
+COMMENT $2C26 tmp664
+COMMENT $2C2A tmp667
+COMMENT $2C2E tmp667
+COMMENT $2C33 tmp668
+COMMENT $2C37 <variable>.x
+COMMENT $2C40 extendqihi2: R:b -> R:d ; i.267
+COMMENT $2C41 tmp669
+COMMENT $2C43 tmp669
+COMMENT $2C45 tmp671
+COMMENT $2C49 tmp671
+COMMENT $2C4D tmp669
+COMMENT $2C51 tmp672
+COMMENT $2C53 addhi3,3 ; tmp672
+COMMENT $2C5C tmp674, tmp673
+COMMENT $2C5E D.3602, <variable>.y
+COMMENT $2C60 tmp675
+COMMENT $2C63 tmp675, u
+COMMENT $2C67 D.3602, y
+COMMENT $2C6F x
+COMMENT $2C75 scaleMove
+COMMENT $2C7D scaleList
+COMMENT $2C81 y
+COMMENT $2C85 extendqihi2: R:b -> R:d
+COMMENT $2C8F x
+COMMENT $2C93 extendqihi2: R:b -> R:d
+COMMENT $2C98 andqi(ZERO)
+COMMENT $2C99 xReg.1, D.3907, D.3905
+COMMENT $2C9B xReg.1, xReg
+COMMENT $2C9F scaleMove
+COMMENT $2CA3 zero_extendqihi: R:b -> R:d
+COMMENT $2CAD scaleList
+COMMENT $2CB1 zero_extendqihi: R:b -> R:d
+COMMENT $2CB4 dReg.2
+COMMENT $2CB6 addhi3,3 ;, D.3911
+COMMENT $2CB8 dReg.2
+COMMENT $2CBA dReg.2, dReg
+COMMENT $2CBE dReg
+COMMENT $2CC2 xReg
+COMMENT $2CC6 u
+COMMENT $2CCA PRINT_SYNC_LIST
+COMMENT $2CDB gataCount.271, gataCount
+COMMENT $2CDE  ; gataCount.271, i.270
+COMMENT $2CE9 D.3035, Vec_Joy_1_Y
+COMMENT $2CED D.3031, Vec_Joy_1_X
+COMMENT $2CF7 D.2941, Vec_Buttons
+COMMENT $2D0D Vec_Joy_Mux_1_Y
+COMMENT $2D13 Vec_Joy_Mux_1_X
+COMMENT $2F17 randomIndex.0, randomIndex
+COMMENT $2F1A randomIndex.1
+COMMENT $2F1B randomIndex.1, randomIndex
+COMMENT $2F1F randomIndex.2, randomIndex
+COMMENT $2F22 randomIndex.3
+COMMENT $2F23 randomIndex.3, randomIndex
+COMMENT $2F26 randomIndex.4, randomIndex
+COMMENT $2F29 zero_extendqihi: R:b -> R:d ; randomIndex.4
+COMMENT $2F2A tmp32
+COMMENT $2F2C D.1193, randomUintTable
+COMMENT $2F31 randomIndex.5, randomIndex
+COMMENT $2F34 randomIndex.6
+COMMENT $2F35 randomIndex.6, randomIndex
+COMMENT $2F38 randomIndex.7, randomIndex
+COMMENT $2F3B zero_extendqihi: R:b -> R:d ; randomIndex.7
+COMMENT $2F3C tmp32
+COMMENT $2F3E D.1200, randomIntTable
+COMMENT $2F45 randomIndex.8, randomIndex
+COMMENT $2F48 randomIndex.9
+COMMENT $2F49 randomIndex.9, randomIndex
+COMMENT $2F4C randomIndex.10, randomIndex
+COMMENT $2F4F zero_extendqihi: R:b -> R:d ; randomIndex.10
+COMMENT $2F50 tmp34
+COMMENT $2F52 D.1208, randomUintTable
+COMMENT $2F61 <result>, D.1210
+COMMENT $2F7E skip the song over, when we just start a new pattern - cant be over yet, can it?
+COMMENT $2F7F if b1 = 1
+COMMENT $2F87 if b2 = 1
+COMMENT $2F8F if b3 = 1
+COMMENT $2FA6 if b4 = 1
+COMMENT $2FAE if b5 = 1
+COMMENT $2FB6 this pattern was read, whenever the tracks are playered - the next pattern will start here
+COMMENT $2FDD if b0=0 -> carry will be clear -> jump to WAIT
+COMMENT $2FE0 regardless if speed or digid -> if a right shift results in 0 A, than we have an escape situation, if not -> jump
+COMMENT $2FE3 load the escaped (additional) value
+COMMENT $2FE7 the data we got was the speed - store it
+COMMENT $2FEA reset wait counter, next round might be more waiting :-)
+COMMENT $2FEC is this used anywhere?
+COMMENT $3000 Full Optimisation ? If yes = Note only, no Pitch, no Volume, Same Instent.
+COMMENT $3003 0-31 = Wait.
+COMMENT $3009 0 (32-32) = Escape Code for more Notes (parameters will be read)
+COMMENT $300C Save Parameters.
+COMMENT $300F is pitch following? -> load it
+COMMENT $3017 is instent following? -> load it
+COMMENT $301B Volume ? If bit 4(0?) was 1, then volume exists on b3-b0 - inverted volume
+COMMENT $3029 load note to B
+COMMENT $302F is param now, no need to save - accessed directly in full opt
+COMMENT $3040 Volume ? If bit 4(0?) was 1, then volume exists on b3-b0 - inverted volume
+COMMENT $304C Note ? If no Note, we don't have to test if a new Instent is here.
+COMMENT $3050 Transpose Note according to the Transposition in the Linker.
+COMMENT $3054 Reset the TrackPitch.
+COMMENT $3059 New Instent ?
+COMMENT $305D Same Instent. We recover its address to restart it.
+COMMENT $305F Reset the Instent Speed Counter. Never seemed useful...
+COMMENT $3076 When using the Instent again, no need to give the Speed, it is skipped. ;WHEN USING THE INSTRUMENT AGAIN, NO NEED TO GIVE THE SPEED, IT IS SKIPPED.
+COMMENT $30B0 U = (PLY_TRACK_PITCH/4)
+COMMENT $30B9 is b1 (n) set
+COMMENT $30BA if yes jump to read second byte
+COMMENT $30BC for volume check copy the first byte to a
+COMMENT $30C0 if is 0 than no sound at all
+COMMENT $30C2 We have to make the volume to 0, because if a bass Hard was activated before, we have to stop it.
+COMMENT $30C6 these are the register mask bits for this sound (or this no sound)
+COMMENT $30CE tmp_volumeN ;Code Volume. volume of instent minus inverted volume
+COMMENT $30DC Needed for the subroutine to get the good flags.
+COMMENT $3111 Needed for the subroutine to get the good flags.
+COMMENT $3117 set frequency - u gotton from above jsr
+COMMENT $311E Test Retrig here, it is common to every Hard sounds.
+COMMENT $3121 forced first channel pointer
+COMMENT $3124 forced first channel pointer
+COMMENT $312E WE DON'T SHIFT THE BITS, SO THAT WE CAN USE THE SAME CODE (FREQUENCY CALCULATION) SEVERAL TIMES.
+COMMENT $3141 Get the Hardware Envelope waveform.
+COMMENT $315A 0 reload second byte of current instent data
+COMMENT $3160 blend out all other data
+COMMENT $3166 shifts only possible with u->D
+COMMENT $3168 to big endian
+COMMENT $3185 correct endianness of calculated frequency to little endian for PSG poke
+COMMENT $318A second byte of instent reloaded
+COMMENT $318D any noise?
+COMMENT $31A1 CODE HARDWARE FREQUENCY.
+COMMENT $31A8 0 reload second byte of current instent data
+COMMENT $31B4 shifts only possible with u->D
+COMMENT $31B6 to big endian
+COMMENT $31CE correct endianness of calculated frequency to little endian for PSG poke
+COMMENT $3202 write software note with its frequency to PSG
+COMMENT $321C CODE HARDWARE FREQUENCY.
+COMMENT $3269 IF ISRETRIG?, FORCE THE R13 TO BE TRIGGERED.
+COMMENT $3279 +2 since it is "--" first
+COMMENT $32BA switching endian anyway because PSG regs are sortof little endian
+COMMENT $32CD reuse arpegio test from above
+COMMENT $32D1 ADD ARPEGGIO TO NOTE.
+COMMENT $32D3 was max note reached?
+COMMENT $32D7 if so set max note
+COMMENT $32E3 switching en dian anyway because PSG regs are sortof little endian
+COMMENT $3437 Copy Speed.
+COMMENT $343A Get Instents chunk size.
+COMMENT $343F Skip Instents to go to the Linker address.
+COMMENT $3459 make sure the hardware envelope is in an "unkown" state
+COMMENT $3480 remember out different scale factors
+COMMENT $3484 this will be a "1"
+COMMENT $3486 test if real sync - or end of list (2)
+COMMENT $3487 if end of list -> jump
+COMMENT $3489 zero the integrators
+COMMENT $348B store zeroing values to cntl
+COMMENT $348E and wait for zeroing to be actually done
+COMMENT $3490 reset integrator offset
+COMMENT $3495 while waiting, zero offsets
+COMMENT $349E scalefactor move
+COMMENT $34A0 to timer t1 (lo=
+COMMENT $34A3 load our coordinates of "entry" of vectorlist
+COMMENT $34A5 move there
+COMMENT $34A8 scale factor vector
+COMMENT $34AA to timer T1 (lo)
+COMMENT $34AD do our "internal" moveto d
+COMMENT $34AF there was a move 0,0, if so
+COMMENT $34B4 load next "mode" byte
+COMMENT $34B6 if 0, than we should move somewhere
+COMMENT $34B8 if still positive it is a 1 pr 2 _> goto sync
+COMMENT $34BA Get next coordinate pair
+COMMENT $34BC Send Y to A/D
+COMMENT $34BF Enable mux
+COMMENT $34C2 Get pattern byte
+COMMENT $34C4 Disable mux
+COMMENT $34C7 Send X to A/D
+COMMENT $34CA B-reg = T1 interrupt bit
+COMMENT $34CC Clear T1H
+COMMENT $34CF Store pattern in shift register
+COMMENT $34D2 Wait for T1 to time out
+COMMENT $34D5 wait till line is finished
+COMMENT $34D7 switch the light off (for sure)
+COMMENT $34DC correct stack and go back
+RANGE $0000-$0001 DB_DATA 8
+RANGE $0008-$0009 DB_DATA 8
+RANGE $000B-$000D DW_DATA 4
+RANGE $000D-$0012 DB_DATA 8
+RANGE $0019-$001A DB_DATA 8
+RANGE $001E-$03D6 CODE
+RANGE $03D6-$03D7 DB_DATA 8
+RANGE $03D7-$03EF DW_DATA 4
+RANGE $03EF-$03F6 DB_DATA 8
+RANGE $03F6-$03F8 DW_DATA 4
+RANGE $03F8-$03FB DB_DATA 8
+RANGE $03FB-$03FD DW_DATA 4
+RANGE $03FD-$03FF DB_DATA 8
+RANGE $03FF-$0401 DW_DATA 4
+RANGE $0401-$0403 DB_DATA 8
+RANGE $0403-$0405 DW_DATA 4
+RANGE $0405-$0407 DB_DATA 8
+RANGE $0407-$0409 DW_DATA 4
+RANGE $0409-$040B DB_DATA 8
+RANGE $040B-$040D DW_DATA 4
+RANGE $040D-$040F DB_DATA 8
+RANGE $040F-$0411 DW_DATA 4
+RANGE $0411-$043A DB_DATA 8
+RANGE $043A-$043C DW_DATA 4
+RANGE $043C-$044C DB_DATA 8
+RANGE $044C-$044E DW_DATA 4
+RANGE $044E-$0452 DB_DATA 8
+RANGE $0452-$0454 DW_DATA 4
+RANGE $0454-$0461 DB_DATA 8
+RANGE $0461-$0463 DW_DATA 4
+RANGE $0463-$0482 DB_DATA 8
+RANGE $0482-$0484 DW_DATA 4
+RANGE $0484-$048F DB_DATA 8
+RANGE $048F-$0491 DW_DATA 4
+RANGE $0491-$0498 DB_DATA 8
+RANGE $0498-$049A DW_DATA 4
+RANGE $049A-$049B DB_DATA 8
+RANGE $049B-$049D DW_DATA 4
+RANGE $049D-$049F DB_DATA 8
+RANGE $049F-$04A1 DW_DATA 4
+RANGE $04A1-$04A3 DB_DATA 8
+RANGE $04A3-$04A5 DW_DATA 4
+RANGE $04A5-$04A6 DB_DATA 8
+RANGE $04A6-$04A8 DW_DATA 4
+RANGE $04A8-$04AA DB_DATA 8
+RANGE $04AA-$04AC DW_DATA 4
+RANGE $04AC-$04AE DB_DATA 8
+RANGE $04AE-$04B0 DW_DATA 4
+RANGE $04B0-$0508 DB_DATA 8
+RANGE $0508-$050A DW_DATA 4
+RANGE $050A-$0512 DB_DATA 8
+RANGE $0512-$0514 DW_DATA 4
+RANGE $0514-$051C DB_DATA 8
+RANGE $051C-$051E DW_DATA 4
+RANGE $051E-$0522 DB_DATA 8
+RANGE $0522-$0524 DW_DATA 4
+RANGE $0524-$0525 DB_DATA 8
+RANGE $0525-$052B DW_DATA 4
+RANGE $052B-$052D DB_DATA 8
+RANGE $052D-$0533 DW_DATA 4
+RANGE $0533-$0534 DB_DATA 8
+RANGE $0534-$053A DW_DATA 4
+RANGE $053A-$053B DB_DATA 8
+RANGE $053B-$0541 DW_DATA 4
+RANGE $0541-$0542 DB_DATA 8
+RANGE $0542-$0548 DW_DATA 4
+RANGE $0548-$0549 DB_DATA 8
+RANGE $0549-$054F DW_DATA 4
+RANGE $054F-$0550 DB_DATA 8
+RANGE $0550-$0556 DW_DATA 4
+RANGE $0556-$0557 DB_DATA 8
+RANGE $0557-$055D DW_DATA 4
+RANGE $055D-$055E DB_DATA 8
+RANGE $055E-$0564 DW_DATA 4
+RANGE $0564-$0565 DB_DATA 8
+RANGE $0565-$056B DW_DATA 4
+RANGE $056B-$056C DB_DATA 8
+RANGE $056C-$0572 DW_DATA 4
+RANGE $0572-$0573 DB_DATA 8
+RANGE $0573-$0579 DW_DATA 4
+RANGE $0579-$057A DB_DATA 8
+RANGE $057A-$0580 DW_DATA 4
+RANGE $0580-$0581 DB_DATA 8
+RANGE $0581-$0587 DW_DATA 4
+RANGE $0587-$0588 DB_DATA 8
+RANGE $0588-$058E DW_DATA 4
+RANGE $058E-$058F DB_DATA 8
+RANGE $058F-$0595 DW_DATA 4
+RANGE $0595-$0597 DB_DATA 8
+RANGE $0597-$059D DW_DATA 4
+RANGE $059D-$059F DB_DATA 8
+RANGE $059F-$05A5 DW_DATA 4
+RANGE $05A5-$05A7 DB_DATA 8
+RANGE $05A7-$05AD DW_DATA 4
+RANGE $05AD-$05AE DB_DATA 8
+RANGE $05AE-$05B4 DW_DATA 4
+RANGE $05B4-$05B5 DB_DATA 8
+RANGE $05B5-$05B7 DW_DATA 4
+RANGE $05B7-$05BB DB_DATA 8
+RANGE $05BB-$05BD DW_DATA 4
+RANGE $05BD-$05DE DB_DATA 8
+RANGE $05DE-$05E0 DW_DATA 4
+RANGE $05E0-$0691 DB_DATA 8
+RANGE $0691-$0693 DW_DATA 4
+RANGE $0693-$0728 DB_DATA 8
+RANGE $0728-$072A DW_DATA 4
+RANGE $072A-$07BF DB_DATA 8
+RANGE $07BF-$07C1 DW_DATA 4
+RANGE $07C1-$0856 DB_DATA 8
+RANGE $0856-$0858 DW_DATA 4
+RANGE $0858-$08FA DB_DATA 8
+RANGE $08FA-$08FC DW_DATA 4
+RANGE $08FC-$0948 DB_DATA 8
+RANGE $0948-$094A DW_DATA 4
+RANGE $094A-$0988 DB_DATA 8
+RANGE $0988-$098A DW_DATA 4
+RANGE $098A-$09B8 DB_DATA 8
+RANGE $09B8-$09BA DW_DATA 4
+RANGE $09BA-$09FE DB_DATA 8
+RANGE $09FE-$0A00 DW_DATA 4
+RANGE $0A00-$0A12 DB_DATA 8
+RANGE $0A12-$0A14 DW_DATA 4
+RANGE $0A14-$0A44 DB_DATA 8
+RANGE $0A44-$0A46 DW_DATA 4
+RANGE $0A46-$0A8C DB_DATA 8
+RANGE $0A8C-$0A8E DW_DATA 4
+RANGE $0A8E-$0AE3 DB_DATA 8
+RANGE $0AE3-$0AE5 DW_DATA 4
+RANGE $0AE5-$0B36 DB_DATA 8
+RANGE $0B36-$0B38 DW_DATA 4
+RANGE $0B38-$0B90 DB_DATA 8
+RANGE $0B90-$0B92 DW_DATA 4
+RANGE $0B92-$0BB3 DB_DATA 8
+RANGE $0BB3-$0BB5 DW_DATA 4
+RANGE $0BB5-$0C08 DB_DATA 8
+RANGE $0C08-$0C0A DW_DATA 4
+RANGE $0C0A-$0C6C DB_DATA 8
+RANGE $0C6C-$0C6E DW_DATA 4
+RANGE $0C6E-$0CD3 DB_DATA 8
+RANGE $0CD3-$0CD5 DW_DATA 4
+RANGE $0CD5-$0D3D DB_DATA 8
+RANGE $0D3D-$0D3F DW_DATA 4
+RANGE $0D3F-$0D98 DB_DATA 8
+RANGE $0D98-$0D9A DW_DATA 4
+RANGE $0D9A-$0DD5 DB_DATA 8
+RANGE $0DD5-$0DD7 DW_DATA 4
+RANGE $0DD7-$0E35 DB_DATA 8
+RANGE $0E35-$0E37 DW_DATA 4
+RANGE $0E37-$0E40 DB_DATA 8
+RANGE $0E40-$0E42 DW_DATA 4
+RANGE $0E42-$104C DB_DATA 8
+RANGE $104C-$109B CODE
+RANGE $109B-$137B DB_DATA 8
+RANGE $137B-$1903 CODE
+RANGE $1903-$1904 DB_DATA 8
+RANGE $1907-$1908 DB_DATA 8
+RANGE $190B-$190C DB_DATA 8
+RANGE $190F-$1910 DB_DATA 8
+RANGE $1913-$1914 DB_DATA 8
+RANGE $1917-$1918 DB_DATA 8
+RANGE $191B-$191C DB_DATA 8
+RANGE $191F-$1920 DB_DATA 8
+RANGE $1923-$1924 DB_DATA 8
+RANGE $1927-$1928 DB_DATA 8
+RANGE $192B-$192C DB_DATA 8
+RANGE $1933-$1934 DB_DATA 8
+RANGE $193B-$193C DB_DATA 8
+RANGE $193D-$2D17 CODE
+RANGE $2D17-$2F17 DB_DATA 8
+RANGE $2F17-$32EA CODE
+RANGE $32EA-$32EC DW_DATA 4
+RANGE $3302-$3304 DW_DATA 4
+RANGE $331A-$331C DW_DATA 4
+RANGE $3332-$3334 DW_DATA 4
+RANGE $334A-$334C DW_DATA 4
+RANGE $3362-$3364 DW_DATA 4
+RANGE $337A-$337C DW_DATA 4
+RANGE $3392-$3394 DW_DATA 4
+RANGE $33AA-$33AC DW_DATA 4
+RANGE $33C2-$33C4 DW_DATA 4
+RANGE $33DA-$33DC DW_DATA 4
+RANGE $33F2-$33F4 DW_DATA 4
+RANGE $340A-$34DF CODE
+
